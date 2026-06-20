@@ -1,0 +1,1044 @@
+{
+  "generated_at": "2026-06-20T05:06:50.808Z",
+  "matches": {
+    "1": {
+      "home": "Mexico",
+      "away": "South Africa",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 0
+    },
+    "2": {
+      "home": "South Korea",
+      "away": "Czechia",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 1
+    },
+    "3": {
+      "home": "Canada",
+      "away": "Bosnia & Herzegovina",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "4": {
+      "home": "USA",
+      "away": "Paraguay",
+      "status": "completed",
+      "clock": null,
+      "home_score": 4,
+      "away_score": 1
+    },
+    "5": {
+      "home": "Qatar",
+      "away": "Switzerland",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "6": {
+      "home": "Brazil",
+      "away": "Morocco",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "7": {
+      "home": "Haiti",
+      "away": "Scotland",
+      "status": "completed",
+      "clock": null,
+      "home_score": 0,
+      "away_score": 1
+    },
+    "8": {
+      "home": "Australia",
+      "away": "Türkiye",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 0
+    },
+    "9": {
+      "home": "Germany",
+      "away": "Curaçao",
+      "status": "completed",
+      "clock": null,
+      "home_score": 7,
+      "away_score": 1
+    },
+    "10": {
+      "home": "Netherlands",
+      "away": "Japan",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 2
+    },
+    "11": {
+      "home": "Côte d'Ivoire",
+      "away": "Ecuador",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 0
+    },
+    "12": {
+      "home": "Sweden",
+      "away": "Tunisia",
+      "status": "completed",
+      "clock": null,
+      "home_score": 5,
+      "away_score": 1
+    },
+    "13": {
+      "home": "Spain",
+      "away": "Cabo Verde",
+      "status": "completed",
+      "clock": null,
+      "home_score": 0,
+      "away_score": 0
+    },
+    "14": {
+      "home": "Belgium",
+      "away": "Egypt",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "15": {
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "16": {
+      "home": "Iran",
+      "away": "New Zealand",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 2
+    },
+    "17": {
+      "home": "France",
+      "away": "Senegal",
+      "status": "completed",
+      "clock": null,
+      "home_score": 3,
+      "away_score": 1
+    },
+    "18": {
+      "home": "Iraq",
+      "away": "Norway",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 4
+    },
+    "19": {
+      "home": "Argentina",
+      "away": "Algeria",
+      "status": "completed",
+      "clock": null,
+      "home_score": 3,
+      "away_score": 0
+    },
+    "20": {
+      "home": "Austria",
+      "away": "Jordan",
+      "status": "completed",
+      "clock": null,
+      "home_score": 3,
+      "away_score": 1
+    },
+    "21": {
+      "home": "Portugal",
+      "away": "DR Congo",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "22": {
+      "home": "England",
+      "away": "Croatia",
+      "status": "completed",
+      "clock": null,
+      "home_score": 4,
+      "away_score": 2
+    },
+    "23": {
+      "home": "Ghana",
+      "away": "Panama",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 0
+    },
+    "24": {
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 3
+    },
+    "25": {
+      "home": "Czechia",
+      "away": "South Africa",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 1
+    },
+    "26": {
+      "home": "Switzerland",
+      "away": "Bosnia & Herzegovina",
+      "status": "completed",
+      "clock": null,
+      "home_score": 4,
+      "away_score": 1
+    },
+    "27": {
+      "home": "Canada",
+      "away": "Qatar",
+      "status": "completed",
+      "clock": null,
+      "home_score": 6,
+      "away_score": 0
+    },
+    "28": {
+      "home": "Mexico",
+      "away": "South Korea",
+      "status": "completed",
+      "clock": null,
+      "home_score": 1,
+      "away_score": 0
+    },
+    "29": {
+      "home": "USA",
+      "away": "Australia",
+      "status": "completed",
+      "clock": null,
+      "home_score": 2,
+      "away_score": 0
+    },
+    "30": {
+      "home": "Scotland",
+      "away": "Morocco",
+      "status": "completed",
+      "clock": null,
+      "home_score": 0,
+      "away_score": 1
+    },
+    "31": {
+      "home": "Brazil",
+      "away": "Haiti",
+      "status": "completed",
+      "clock": null,
+      "home_score": 3,
+      "away_score": 0
+    },
+    "32": {
+      "home": "Türkiye",
+      "away": "Paraguay",
+      "status": "completed",
+      "clock": null,
+      "home_score": 0,
+      "away_score": 1
+    },
+    "33": {
+      "home": "Netherlands",
+      "away": "Sweden",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "34": {
+      "home": "Germany",
+      "away": "Côte d'Ivoire",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "35": {
+      "home": "Ecuador",
+      "away": "Curaçao",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "36": {
+      "home": "Tunisia",
+      "away": "Japan",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "37": {
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "38": {
+      "home": "Belgium",
+      "away": "Iran",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "39": {
+      "home": "Uruguay",
+      "away": "Cabo Verde",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "40": {
+      "home": "New Zealand",
+      "away": "Egypt",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "41": {
+      "home": "Argentina",
+      "away": "Austria",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "42": {
+      "home": "France",
+      "away": "Iraq",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "43": {
+      "home": "Norway",
+      "away": "Senegal",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "44": {
+      "home": "Jordan",
+      "away": "Algeria",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "45": {
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "46": {
+      "home": "England",
+      "away": "Ghana",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "47": {
+      "home": "Panama",
+      "away": "Croatia",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "48": {
+      "home": "Colombia",
+      "away": "DR Congo",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "49": {
+      "home": "Switzerland",
+      "away": "Canada",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "50": {
+      "home": "Bosnia & Herzegovina",
+      "away": "Qatar",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "51": {
+      "home": "Scotland",
+      "away": "Brazil",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "52": {
+      "home": "Morocco",
+      "away": "Haiti",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "53": {
+      "home": "Czechia",
+      "away": "Mexico",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "54": {
+      "home": "South Africa",
+      "away": "South Korea",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "55": {
+      "home": "Ecuador",
+      "away": "Germany",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "56": {
+      "home": "Curaçao",
+      "away": "Côte d'Ivoire",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "57": {
+      "home": "Tunisia",
+      "away": "Netherlands",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "58": {
+      "home": "Japan",
+      "away": "Sweden",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "59": {
+      "home": "Paraguay",
+      "away": "Australia",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "60": {
+      "home": "Türkiye",
+      "away": "USA",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "61": {
+      "home": "Norway",
+      "away": "France",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "62": {
+      "home": "Senegal",
+      "away": "Iraq",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "63": {
+      "home": "Uruguay",
+      "away": "Spain",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "64": {
+      "home": "Cabo Verde",
+      "away": "Saudi Arabia",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "65": {
+      "home": "Egypt",
+      "away": "Iran",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "66": {
+      "home": "New Zealand",
+      "away": "Belgium",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "67": {
+      "home": "Panama",
+      "away": "England",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "68": {
+      "home": "Croatia",
+      "away": "Ghana",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "69": {
+      "home": "Colombia",
+      "away": "Portugal",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "70": {
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "71": {
+      "home": "Jordan",
+      "away": "Argentina",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "72": {
+      "home": "Algeria",
+      "away": "Austria",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "146": {
+      "home": "2A",
+      "away": "2B",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "147": {
+      "home": "1C",
+      "away": "2F",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "148": {
+      "home": "1E",
+      "away": "3A/3B/3C/3D/3F",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "149": {
+      "home": "1F",
+      "away": "2C",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "150": {
+      "home": "2E",
+      "away": "2I",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "151": {
+      "home": "1I",
+      "away": "3C/3D/3F/3G/3H",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "152": {
+      "home": "Mexico",
+      "away": "3C/3E/3F/3H/3I",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "153": {
+      "home": "1L",
+      "away": "3E/3H/3I/3J/3K",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "154": {
+      "home": "G1",
+      "away": "3A/3E/3H/3I/3J",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "155": {
+      "home": "1D",
+      "away": "3B/3E/3F/3I/3J",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "156": {
+      "home": "H1",
+      "away": "2J",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "157": {
+      "home": "2K",
+      "away": "2L",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "158": {
+      "home": "1B",
+      "away": "3E/3F/3G/3I/3J",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "159": {
+      "home": "2D",
+      "away": "G2",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "160": {
+      "home": "1J",
+      "away": "H2",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "161": {
+      "home": "1K",
+      "away": "3D/3E/3I/3J/3L",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "162": {
+      "home": "W73",
+      "away": "W75",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "163": {
+      "home": "W74",
+      "away": "W77",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "164": {
+      "home": "W76",
+      "away": "W78",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "165": {
+      "home": "W79",
+      "away": "W80",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "166": {
+      "home": "W83",
+      "away": "W84",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "167": {
+      "home": "W81",
+      "away": "W82",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "168": {
+      "home": "W86",
+      "away": "W88",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "169": {
+      "home": "W85",
+      "away": "W87",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "170": {
+      "home": "W89",
+      "away": "W90",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "171": {
+      "home": "W93",
+      "away": "W94",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "172": {
+      "home": "W91",
+      "away": "W92",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    },
+    "173": {
+      "home": "W95",
+      "away": "W96",
+      "status": "scheduled",
+      "clock": null,
+      "home_score": null,
+      "away_score": null
+    }
+  },
+  "bets": [
+    {
+      "id": "fourfold-match-result",
+      "name": "Four-Fold",
+      "status": "lost",
+      "potential_return": 94.76,
+      "currency": "GBP",
+      "odds_fractional": "9.47/1",
+      "stake": {
+        "amount": 10,
+        "currency": "GBP",
+        "free_bet": true
+      },
+      "settled_at": "2026-06-20T05:06:50.808Z",
+      "summary": {
+        "total": 4,
+        "won": 3,
+        "lost": 1,
+        "void": 0,
+        "open": 0
+      },
+      "legs": [
+        {
+          "id": "f1",
+          "label": "Mexico",
+          "status": "won",
+          "current": 1,
+          "value": "Won 1–0",
+          "target": null
+        },
+        {
+          "id": "f2",
+          "label": "USA",
+          "status": "won",
+          "current": 2,
+          "value": "Won 2–0",
+          "target": null
+        },
+        {
+          "id": "f3",
+          "label": "Morocco",
+          "status": "won",
+          "current": 1,
+          "value": "Won 0–1",
+          "target": null
+        },
+        {
+          "id": "f4",
+          "label": "Turkey",
+          "status": "lost",
+          "value": "Lost 0–1",
+          "current": 0,
+          "target": null
+        }
+      ]
+    },
+    {
+      "id": "sevenfold-brazil-haiti",
+      "name": "Seven-Fold",
+      "status": "won",
+      "potential_return": 110,
+      "currency": "GBP",
+      "odds_fractional": "11/1",
+      "stake": {
+        "amount": 10,
+        "currency": "GBP",
+        "free_bet": true
+      },
+      "settled_at": "2026-06-20T02:33:17.819Z",
+      "summary": {
+        "total": 7,
+        "won": 5,
+        "lost": 0,
+        "void": 2,
+        "open": 0
+      },
+      "legs": [
+        {
+          "id": "s1",
+          "label": "Vinícius Júnior — Anytime Goal or Assist",
+          "status": "won",
+          "current": 2,
+          "value": "1 goal, 1 assist",
+          "target": 1
+        },
+        {
+          "id": "s2",
+          "label": "Matheus Cunha — Anytime Goal or Assist",
+          "status": "won",
+          "current": 2,
+          "value": "2 goals",
+          "target": 1
+        },
+        {
+          "id": "s3",
+          "label": "Vinícius Júnior — Shots on Target 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "s4",
+          "label": "Matheus Cunha — Shots on Target 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "s5",
+          "label": "Bellegarde — Fouls Committed 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        },
+        {
+          "id": "s6",
+          "label": "Bruno Guimarães — Tackles Won 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "s7",
+          "label": "Douglas Santos — Tackles Won 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        }
+      ]
+    },
+    {
+      "id": "tenfold-brazil-haiti",
+      "name": "Ten-Fold",
+      "status": "won",
+      "potential_return": 100,
+      "currency": "GBP",
+      "odds_fractional": "50/1",
+      "stake": {
+        "amount": 2,
+        "currency": "GBP",
+        "free_bet": true
+      },
+      "settled_at": "2026-06-20T02:33:17.819Z",
+      "summary": {
+        "total": 10,
+        "won": 5,
+        "lost": 0,
+        "void": 5,
+        "open": 0
+      },
+      "legs": [
+        {
+          "id": "t1",
+          "label": "Vinícius Júnior — Anytime Goal or Assist",
+          "status": "won",
+          "current": 2,
+          "value": "1 goal, 1 assist",
+          "target": 1
+        },
+        {
+          "id": "t2",
+          "label": "Matheus Cunha — Anytime Goal or Assist",
+          "status": "won",
+          "current": 2,
+          "value": "2 goals",
+          "target": 1
+        },
+        {
+          "id": "t3",
+          "label": "Vinícius Júnior — Shots on Target 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "t4",
+          "label": "Matheus Cunha — Shots on Target 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "t5",
+          "label": "Bellegarde — Fouls Committed 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        },
+        {
+          "id": "t6",
+          "label": "Bruno Guimarães — Fouls Committed 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        },
+        {
+          "id": "t7",
+          "label": "Bruno Guimarães — Tackles Won 2+",
+          "status": "won",
+          "current": 2,
+          "value": "2 of 2",
+          "target": 2
+        },
+        {
+          "id": "t8",
+          "label": "Lucas Paquetá — Tackles Won 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        },
+        {
+          "id": "t9",
+          "label": "Douglas Santos — Tackles Won 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        },
+        {
+          "id": "t10",
+          "label": "Danilo — Tackles Won 2+",
+          "status": "void",
+          "current": 0,
+          "value": "DNP — not in squad",
+          "target": 2
+        }
+      ]
+    }
+  ]
+}
