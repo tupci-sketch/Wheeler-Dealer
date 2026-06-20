@@ -111,30 +111,37 @@ function getPlayerPropMatchIds(resolved) {
   return [...ids];
 }
 
+// Single-page fetch — our datasets (5 matches, ~30 players per match) always fit in 100.
+// Never follow the cursor: BallDontLie returns a cursor even when filtering by IDs,
+// and following it pages through the entire WC dataset, burning rate-limit quota.
+async function fetchOnePage(endpoint) {
+  const sep = endpoint.includes('?') ? '&' : '?';
+  const url = `${BASE_URL}${endpoint}${sep}per_page=100`;
+  const data = await apiGet(url);
+  return data.data ?? [];
+}
+
 async function fetchMatchData(matchIds) {
   const qstring = matchIds.map(id => `ids[]=${id}`).join('&');
-  const rows = await getAllPages(`/matches?${qstring}`);
+  const rows = await fetchOnePage(`/matches?${qstring}`);
   const result = {};
   for (const m of rows) result[String(m.id)] = m;
   return result;
 }
 
 async function fetchPlayerStats(matchIds) {
-  // Fetch per match so cursor pagination stays scoped to that match's data
   const result = {};
   for (const id of matchIds) {
-    const rows = await getAllPages(`/player_match_stats?match_ids[]=${id}`);
-    result[String(id)] = rows;
+    result[String(id)] = await fetchOnePage(`/player_match_stats?match_ids[]=${id}`);
     if (id !== matchIds[matchIds.length - 1]) await sleep(1000);
   }
   return result;
 }
 
 async function fetchLineups(matchIds) {
-  // Fetch per match so cursor pagination stays scoped to that match's data
   const result = {};
   for (const id of matchIds) {
-    const rows = await getAllPages(`/match_lineups?match_ids[]=${id}`);
+    const rows = await fetchOnePage(`/match_lineups?match_ids[]=${id}`);
     result[String(id)] = rows.map(e => ({
       player_id: e.player?.id ?? e.player_id,
       team_id: e.team_id,
