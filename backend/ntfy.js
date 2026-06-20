@@ -16,16 +16,15 @@ async function notify(topic, title, message, priority = 'default') {
 
   const body = message;
   return new Promise((resolve, reject) => {
-    const url = `${NTFY_BASE}/${encodeURIComponent(topic)}`;
+    // Pass title as query param — Node.js http rejects non-ASCII in headers (emoji titles)
+    const url = `${NTFY_BASE}/${encodeURIComponent(topic)}?title=${encodeURIComponent(title)}`;
     const payload = Buffer.from(body, 'utf8');
     const req = https.request(url, {
       method: 'POST',
       headers: {
-        'Title': title,
         'Priority': priority,
         'Content-Type': 'text/plain; charset=utf-8',
         'Content-Length': payload.length,
-        'Markdown': 'yes',
       },
     }, res => {
       res.resume();
