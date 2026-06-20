@@ -57,15 +57,19 @@ function apiGet(url) {
 async function getAllPages(endpoint) {
   const results = [];
   let cursor = null;
+  let page = 0;
   do {
+    if (++page > 20) { console.warn(`[api] Safety: >20 pages for ${endpoint}`); break; }
     const sep = endpoint.includes('?') ? '&' : '?';
     const url = cursor
       ? `${BASE_URL}${endpoint}${sep}cursor=${cursor}&per_page=100`
       : `${BASE_URL}${endpoint}${sep}per_page=100`;
     const data = await apiGet(url);
-    results.push(...(data.data ?? []));
-    cursor = data.meta?.next_cursor ?? null;
-    if (cursor) await sleep(200);
+    const items = data.data ?? [];
+    results.push(...items);
+    // Use || so that empty-string / 0 / false all terminate pagination
+    cursor = data.meta?.next_cursor || null;
+    if (cursor) await sleep(300);
   } while (cursor);
   return results;
 }
@@ -96,25 +100,27 @@ async function fetchMatchData(matchIds) {
 }
 
 async function fetchPlayerStats(matchIds) {
-  const qstring = matchIds.map(id => `match_ids[]=${id}`).join('&');
-  const rows = await getAllPages(`/player_match_stats?${qstring}`);
+  // Fetch per match so cursor pagination stays scoped to that match's data
   const result = {};
-  for (const s of rows) {
-    const mid = String(s.match_id);
-    if (!result[mid]) result[mid] = [];
-    result[mid].push(s);
+  for (const id of matchIds) {
+    const rows = await getAllPages(`/player_match_stats?match_ids[]=${id}`);
+    result[String(id)] = rows;
+    if (id !== matchIds[matchIds.length - 1]) await sleep(300);
   }
   return result;
 }
 
 async function fetchLineups(matchIds) {
-  const qstring = matchIds.map(id => `match_ids[]=${id}`).join('&');
-  const rows = await getAllPages(`/match_lineups?${qstring}`);
+  // Fetch per match so cursor pagination stays scoped to that match's data
   const result = {};
-  for (const e of rows) {
-    const mid = String(e.match_id);
-    if (!result[mid]) result[mid] = [];
-    result[mid].push({ player_id: e.player?.id ?? e.player_id, team_id: e.team_id, is_starter: e.is_starter });
+  for (const id of matchIds) {
+    const rows = await getAllPages(`/match_lineups?match_ids[]=${id}`);
+    result[String(id)] = rows.map(e => ({
+      player_id: e.player?.id ?? e.player_id,
+      team_id: e.team_id,
+      is_starter: e.is_starter,
+    }));
+    if (id !== matchIds[matchIds.length - 1]) await sleep(300);
   }
   return result;
 }
@@ -164,14 +170,27 @@ async function writeStateToBranch(stateJson) {
 }
 
 async function poll(resolved, prevState) {
-  const matchIds = getActiveMatchIds(resolved);
-  console.log(`[poll] Fetching data for matches: ${matchIds.join(', ')}`);
+  const allMatchIds = getActiveMatchIds(resolved);
+  const prevMatches = prevState?.matches ?? {};
 
-  const [matchData, playerStats, lineups] = await Promise.all([
-    fetchMatchData(matchIds),
-    fetchPlayerStats(matchIds),
-    fetchLineups(matchIds),
-  ]);
+  // Step 1: fetch all match statuses (lightweight — one request)
+  const matchData = await fetchMatchData(allMatchIds);
+
+  // Step 2: fetch player stats + lineups only for matches that need it.
+  // Skip matches that are already completed in prevState — latching preserves those legs.
+  // Always fetch on first run (prevState null) and for the cycle a match just completes.
+  const needsStats = allMatchIds.filter(id => {
+    const cur = matchData[String(id)];
+    const prev = prevMatches[String(id)];
+    return cur?.status === 'in_progress' ||
+           cur?.status === 'scheduled' && !prev ||
+           (cur?.status === 'completed' && prev?.status !== 'completed');
+  });
+
+  console.log(`[poll] matches: ${allMatchIds.join(',')}  fetching stats for: ${needsStats.join(',') || 'none'}`);
+
+  const playerStats = needsStats.length ? await fetchPlayerStats(needsStats) : {};
+  const lineups     = needsStats.length ? await fetchLineups(needsStats)     : {};
 
   const newState = evaluate(resolved, matchData, playerStats, lineups, prevState);
 
