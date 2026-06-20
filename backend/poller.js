@@ -131,39 +131,33 @@ async function writeStateToBranch(stateJson) {
 
   try {
     const remote = `https://x-access-token:${token}@github.com/${repo}.git`;
-    execSync(`git config user.email "github-actions@github.com"`, { stdio: 'pipe' });
-    execSync(`git config user.name "GitHub Actions"`, { stdio: 'pipe' });
+    execSync('git config user.email "github-actions@github.com"', { stdio: 'pipe' });
+    execSync('git config user.name "GitHub Actions"', { stdio: 'pipe' });
 
-    // Ensure state branch exists
-    try {
-      execSync(`git fetch origin state --depth 1`, { stdio: 'pipe' });
-    } catch (_) {
-      execSync(`git checkout --orphan state-tmp 2>/dev/null || true`, { stdio: 'pipe' });
-    }
+    // Hash the file from disk — avoids all shell-escaping issues with JSON content
+    const blobHash = execSync(`git hash-object -w -- "${STATE_PATH}"`, { stdio: 'pipe' }).toString().trim();
 
-    // Write state to a temp worktree approach: create/reset state branch from scratch
-    execSync(`git stash --include-untracked -m "poller-stash" 2>/dev/null || true`, { stdio: 'pipe' });
-    execSync(`git fetch origin state 2>/dev/null || true`, { stdio: 'pipe' });
+    // Build a minimal tree with just state.json, passing descriptor via Node stdin
+    const treeHash = execSync('git mktree', {
+      input: `100644 blob ${blobHash}\tstate.json\n`,
+      stdio: ['pipe', 'pipe', 'pipe'],
+    }).toString().trim();
 
-    // Use low-level git to push state.json to state branch without checkout
-    const content = fs.readFileSync(STATE_PATH, 'utf8');
-    const blobHash = execSync(`echo ${JSON.stringify(content)} | git hash-object -w --stdin`, { stdio: 'pipe' }).toString().trim();
-
-    // Build a tree with just state.json
-    const treeHash = execSync(
-      `printf '100644 blob %s\tstate.json\n' "${blobHash}" | git mktree`,
-      { stdio: 'pipe', shell: true }
-    ).toString().trim();
-
-    // Create a commit
+    // Create a root commit (no parent — history doesn't matter for state branch)
     const now = new Date().toISOString();
-    const commitHash = execSync(
-      `git commit-tree ${treeHash} -m "state: ${now}"`,
-      { stdio: 'pipe', env: { ...process.env, GIT_AUTHOR_NAME: 'Actions', GIT_AUTHOR_EMAIL: 'actions@github.com', GIT_COMMITTER_NAME: 'Actions', GIT_COMMITTER_EMAIL: 'actions@github.com' } }
-    ).toString().trim();
+    const commitHash = execSync(`git commit-tree ${treeHash} -m "state: ${now}"`, {
+      stdio: ['pipe', 'pipe', 'pipe'],
+      env: {
+        ...process.env,
+        GIT_AUTHOR_NAME: 'Actions',
+        GIT_AUTHOR_EMAIL: 'actions@github.com',
+        GIT_COMMITTER_NAME: 'Actions',
+        GIT_COMMITTER_EMAIL: 'actions@github.com',
+      },
+    }).toString().trim();
 
     execSync(`git push "${remote}" ${commitHash}:refs/heads/state --force`, { stdio: 'pipe' });
-    console.log(`[state] Pushed state.json to state branch (commit ${commitHash.slice(0,7)})`);
+    console.log(`[state] Pushed state.json (commit ${commitHash.slice(0, 7)})`);
   } catch (err) {
     console.warn(`[state] Failed to push: ${err.message}`);
   }
