@@ -98,6 +98,19 @@ function getActiveMatchIds(resolved) {
   return [...ids];
 }
 
+// Only matches that have at least one non-match_result leg need player stats + lineups
+function getPlayerPropMatchIds(resolved) {
+  const ids = new Set();
+  for (const bet of resolved.bets) {
+    if (!bet.legs.some(l => l.market !== 'match_result')) continue;
+    if (bet.match?.match_id) ids.add(bet.match.match_id);
+    for (const leg of bet.legs) {
+      if (leg.match_id && leg.market !== 'match_result') ids.add(leg.match_id);
+    }
+  }
+  return [...ids];
+}
+
 async function fetchMatchData(matchIds) {
   const qstring = matchIds.map(id => `ids[]=${id}`).join('&');
   const rows = await getAllPages(`/matches?${qstring}`);
@@ -177,24 +190,23 @@ async function writeStateToBranch(stateJson) {
 }
 
 async function poll(resolved, prevState) {
-  const allMatchIds = getActiveMatchIds(resolved);
-  const prevMatches = prevState?.matches ?? {};
+  const allMatchIds      = getActiveMatchIds(resolved);
+  const propMatchIds     = getPlayerPropMatchIds(resolved); // only matches with player prop legs
+  const prevMatches      = prevState?.matches ?? {};
 
-  // Step 1: fetch all match statuses (lightweight — one request)
+  // Step 1: fetch all match statuses (one request covers all five matches)
   const matchData = await fetchMatchData(allMatchIds);
 
-  // Step 2: fetch player stats + lineups only for matches that need it.
-  // Skip matches that are already completed in prevState — latching preserves those legs.
-  // Always fetch on first run (prevState null) and for the cycle a match just completes.
-  const needsStats = allMatchIds.filter(id => {
-    const cur = matchData[String(id)];
+  // Step 2: fetch player stats + lineups only for player-prop matches that are active.
+  // Skip if already completed in prevState — latching in the evaluate engine handles those legs.
+  const needsStats = propMatchIds.filter(id => {
+    const cur  = matchData[String(id)];
     const prev = prevMatches[String(id)];
     return cur?.status === 'in_progress' ||
-           cur?.status === 'scheduled' && !prev ||
            (cur?.status === 'completed' && prev?.status !== 'completed');
   });
 
-  console.log(`[poll] matches: ${allMatchIds.join(',')}  fetching stats for: ${needsStats.join(',') || 'none'}`);
+  console.log(`[poll] all=${allMatchIds.join(',')}  prop=${propMatchIds.join(',')}  fetching=${needsStats.join(',') || 'none'}`);
 
   const playerStats = needsStats.length ? await fetchPlayerStats(needsStats) : {};
   const lineups     = needsStats.length ? await fetchLineups(needsStats)     : {};
