@@ -1,0 +1,36 @@
+name: Live Poller
+
+on:
+  workflow_dispatch:
+    inputs:
+      poll_interval_ms:
+        description: 'Poll interval in milliseconds (default: 45000)'
+        required: false
+        default: '45000'
+      max_runtime_ms:
+        description: 'Max runtime in milliseconds (default: 10800000 = 3h)'
+        required: false
+        default: '10800000'
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 200
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run live poller
+        env:
+          BDL_API_KEY: ${{ secrets.BDL_API_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          POLL_INTERVAL_MS: ${{ inputs.poll_interval_ms }}
+          MAX_RUNTIME_MS: ${{ inputs.max_runtime_ms }}
+        run: node backend/poller.js
