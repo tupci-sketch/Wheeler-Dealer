@@ -21,8 +21,7 @@ async function notify(topic, title, message, priority = 'default') {
     const req = https.request(url, {
       method: 'POST',
       headers: {
-        'Title': Buffer.from(title).toString('base64'),
-        'X-Title': title,
+        'Title': title,
         'Priority': priority,
         'Content-Type': 'text/plain; charset=utf-8',
         'Content-Length': payload.length,
