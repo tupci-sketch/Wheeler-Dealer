@@ -304,3 +304,330 @@ function startAutoRefresh() {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(() => {});
 }
+
+// ─── Admin / Bet Builder ───────────────────────────────────────────────────
+
+const ADMIN_PIN   = '1644';
+const GH_REPO     = 'tupci-sketch/wheeler-dealer';
+const GH_FILE     = 'config/bets.resolved.json';
+const PAT_KEY     = 'wd_gh_pat';
+
+const KNOWN_PLAYERS = [
+  { id: 9227,  name: 'Vinícius Júnior',       team_id: 9,  team: 'Brazil' },
+  { id: 29607, name: 'Matheus Cunha',           team_id: 9,  team: 'Brazil' },
+  { id: 9245,  name: 'Bruno Guimarães',          team_id: 9,  team: 'Brazil' },
+  { id: 29625, name: 'Douglas Santos',           team_id: 9,  team: 'Brazil' },
+  { id: 9224,  name: 'Lucas Paquetá',            team_id: 9,  team: 'Brazil' },
+  { id: 304,   name: 'Danilo',                   team_id: 9,  team: 'Brazil' },
+  { id: 30001, name: 'Jean-Ricner Bellegarde',   team_id: 11, team: 'Haiti'  },
+];
+
+const KNOWN_TEAMS = [
+  { id: 1,  name: 'Mexico' },    { id: 3,  name: 'South Korea' },
+  { id: 9,  name: 'Brazil' },    { id: 10, name: 'Morocco' },
+  { id: 11, name: 'Haiti' },     { id: 12, name: 'Scotland' },
+  { id: 13, name: 'USA' },       { id: 14, name: 'Paraguay' },
+  { id: 15, name: 'Australia' }, { id: 16, name: 'Türkiye' },
+];
+
+let adminUnlocked = sessionStorage.getItem('wd_admin') === '1';
+let builderLegs = [];
+
+// --- PIN modal ---
+
+function showPinModal() {
+  document.getElementById('pin-input').value = '';
+  document.getElementById('pin-error').classList.add('hidden');
+  document.getElementById('pin-modal').classList.remove('hidden');
+  setTimeout(() => document.getElementById('pin-input').focus(), 50);
+}
+
+function closePinModal() {
+  document.getElementById('pin-modal').classList.add('hidden');
+}
+
+function submitPin() {
+  const val = document.getElementById('pin-input').value.trim();
+  if (val === ADMIN_PIN) {
+    adminUnlocked = true;
+    sessionStorage.setItem('wd_admin', '1');
+    closePinModal();
+    document.getElementById('admin-btn').textContent = '🔓';
+    document.getElementById('add-bet-btn').classList.remove('hidden');
+    showToast('Admin mode on');
+  } else {
+    document.getElementById('pin-error').classList.remove('hidden');
+    document.getElementById('pin-input').value = '';
+    document.getElementById('pin-input').focus();
+  }
+}
+
+// --- Bet Builder modal ---
+
+function openBuilder() {
+  builderLegs = [];
+  // Pre-fill saved PAT
+  const savedPat = localStorage.getItem(PAT_KEY) ?? '';
+  document.getElementById('b-pat').value = savedPat;
+  // Populate match dropdown from current state
+  populateMatchDropdown();
+  // Populate player dropdown
+  populatePlayerDropdown();
+  renderBuilderLegs();
+  updateReturn();
+  onMarketChange();
+  document.getElementById('builder-modal').classList.remove('hidden');
+}
+
+function closeBuilder() {
+  document.getElementById('builder-modal').classList.add('hidden');
+  builderLegs = [];
+}
+
+function populateMatchDropdown() {
+  const sel = document.getElementById('leg-match');
+  // Remove existing state-derived options (keep blank + custom)
+  while (sel.options.length > 2) sel.remove(1);
+  const matches = currentState?.matches ?? {};
+  const sorted = Object.entries(matches).sort((a, b) => {
+    const order = { in_progress: 0, scheduled: 1, completed: 2 };
+    return (order[a[1].status] ?? 3) - (order[b[1].status] ?? 3);
+  });
+  for (const [id, m] of sorted) {
+    const opt = new Option(`${m.home} vs ${m.away} (${m.status === 'completed' ? 'FT' : m.status === 'in_progress' ? 'LIVE' : 'Soon'})`, id);
+    sel.insertBefore(opt, sel.options[sel.options.length - 1]);
+  }
+}
+
+function populatePlayerDropdown() {
+  const sel = document.getElementById('leg-player');
+  sel.innerHTML = '<option value="">— select player —</option>';
+  for (const p of KNOWN_PLAYERS) {
+    sel.add(new Option(`${p.name} (${p.team})`, String(p.id)));
+  }
+  sel.add(new Option('Custom player…', 'custom'));
+}
+
+// --- Match / market change handlers ---
+
+function onMatchChange() {
+  const val = document.getElementById('leg-match').value;
+  const isCustom = val === 'custom';
+  document.getElementById('custom-match-row').classList.toggle('hidden', !isCustom);
+
+  const teamSel = document.getElementById('leg-team');
+  teamSel.innerHTML = '';
+  if (!isCustom && val && currentState?.matches?.[val]) {
+    const m = currentState.matches[val];
+    teamSel.add(new Option(`${m.home} (Home)`, 'home'));
+    teamSel.add(new Option(`${m.away} (Away)`, 'away'));
+  } else if (isCustom) {
+    teamSel.add(new Option('Home team', 'home'));
+    teamSel.add(new Option('Away team', 'away'));
+  } else {
+    teamSel.add(new Option('— pick match first —', ''));
+  }
+}
+
+function onMarketChange() {
+  const market = document.getElementById('leg-market').value;
+  const isMatchResult = market === 'match_result';
+  const needsThreshold = ['shots_on_target', 'tackles_won', 'fouls_committed'].includes(market);
+  document.getElementById('match-result-sel').classList.toggle('hidden', !isMatchResult);
+  document.getElementById('player-prop-sel').classList.toggle('hidden', isMatchResult);
+  document.getElementById('threshold-row').classList.toggle('hidden', !needsThreshold);
+}
+
+function onPlayerChange() {
+  const val = document.getElementById('leg-player').value;
+  document.getElementById('custom-player-row').classList.toggle('hidden', val !== 'custom');
+}
+
+// --- Return calculator ---
+
+function updateReturn() {
+  const stake    = parseFloat(document.getElementById('b-stake').value) || 0;
+  const oddsStr  = document.getElementById('b-odds').value.trim();
+  const freeBet  = document.getElementById('b-frebet').checked;
+  const parts    = oddsStr.split('/').map(Number);
+  const el       = document.getElementById('b-return');
+  if (parts.length === 2 && parts[1]) {
+    const winnings = stake * (parts[0] / parts[1]);
+    el.textContent = (freeBet ? winnings : winnings + stake).toFixed(2);
+  } else {
+    el.textContent = '—';
+  }
+}
+
+// --- Leg management ---
+
+function addLeg() {
+  const market   = document.getElementById('leg-market').value;
+  const matchSel = document.getElementById('leg-match').value;
+
+  let matchId, home, away;
+  if (matchSel === 'custom') {
+    matchId = parseInt(document.getElementById('leg-match-id').value) || 0;
+    home    = document.getElementById('leg-home').value.trim();
+    away    = document.getElementById('leg-away').value.trim();
+    if (!matchId || !home || !away) { showToast('Fill in match ID, home and away team'); return; }
+  } else if (matchSel) {
+    matchId = parseInt(matchSel);
+    const m = currentState?.matches?.[matchSel] ?? {};
+    home = m.home ?? ''; away = m.away ?? '';
+  } else {
+    showToast('Pick a match first'); return;
+  }
+
+  const legId = 'u' + (builderLegs.length + 1);
+  const leg   = { id: legId, match_id: matchId };
+
+  if (market === 'match_result') {
+    const side     = document.getElementById('leg-team').value; // 'home' | 'away'
+    if (!side) { showToast('Pick a team selection'); return; }
+    const teamName = side === 'home' ? home : away;
+    const known    = KNOWN_TEAMS.find(t => t.name.toLowerCase() === teamName.toLowerCase());
+    leg.market         = 'match_result';
+    leg.selection_team = teamName;
+    leg.match          = { home, away };
+    if (known) leg.team_id = known.id;
+    leg.label = `${teamName} to Win`;
+  } else {
+    const playerSel = document.getElementById('leg-player').value;
+    let playerId, playerName;
+    if (playerSel === 'custom') {
+      playerId   = parseInt(document.getElementById('leg-player-id').value) || 0;
+      playerName = document.getElementById('leg-player-name').value.trim();
+      if (!playerId || !playerName) { showToast('Enter player ID and name'); return; }
+    } else if (playerSel) {
+      const p  = KNOWN_PLAYERS.find(p => String(p.id) === playerSel);
+      playerId   = p?.id;
+      playerName = p?.name ?? '';
+    } else {
+      showToast('Pick a player'); return;
+    }
+    leg.market    = market;
+    leg.player_id = playerId;
+    leg.player    = playerName;
+    if (market === 'goal_or_assist') {
+      leg.label = `${playerName} — Goal or Assist`;
+    } else {
+      const threshold = parseInt(document.getElementById('leg-threshold').value) || 2;
+      leg.threshold   = threshold;
+      const mLabel = { shots_on_target: 'Shots on Target', tackles_won: 'Tackles Won', fouls_committed: 'Fouls Committed' }[market] ?? market;
+      leg.label = `${playerName} — ${mLabel} ${threshold}+`;
+    }
+  }
+
+  builderLegs.push(leg);
+  renderBuilderLegs();
+}
+
+function removeLeg(idx) {
+  builderLegs.splice(idx, 1);
+  builderLegs.forEach((l, i) => l.id = 'u' + (i + 1));
+  renderBuilderLegs();
+}
+
+function renderBuilderLegs() {
+  const el = document.getElementById('legs-preview');
+  document.getElementById('leg-count').textContent = builderLegs.length;
+  if (!builderLegs.length) {
+    el.innerHTML = '<p class="no-legs">No legs yet</p>';
+    return;
+  }
+  el.innerHTML = builderLegs.map((l, i) => `
+    <div class="builder-leg">
+      <span class="builder-leg-label">${l.label}</span>
+      <button class="builder-leg-remove" onclick="removeLeg(${i})">✕</button>
+    </div>
+  `).join('');
+}
+
+// --- GitHub API save ---
+
+async function saveBet() {
+  if (builderLegs.length === 0) { showToast('Add at least one leg'); return; }
+
+  const name    = document.getElementById('b-name').value.trim() || 'My Bet';
+  const stake   = parseFloat(document.getElementById('b-stake').value) || 10;
+  const freeBet = document.getElementById('b-frebet').checked;
+  const oddsStr = document.getElementById('b-odds').value.trim();
+  const [num, den] = oddsStr.split('/').map(Number);
+  const potReturn  = (num && den) ? +(stake * (freeBet ? num / den : 1 + num / den)).toFixed(2) : 0;
+  const pat = document.getElementById('b-pat').value.trim();
+  if (!pat) { showToast('Enter a GitHub PAT to save'); return; }
+  localStorage.setItem(PAT_KEY, pat);
+
+  const newBet = {
+    id: 'user-' + Date.now(),
+    name,
+    type: 'accumulator',
+    stake: { amount: stake, currency: 'GBP', free_bet: freeBet },
+    odds_fractional: oddsStr,
+    potential_return: potReturn,
+    return_excludes_stake: freeBet,
+    legs: builderLegs,
+  };
+
+  const btn = document.getElementById('save-bet-btn');
+  btn.disabled = true;
+  btn.textContent = 'Saving…';
+
+  try {
+    const headers = {
+      Authorization: `token ${pat}`,
+      Accept: 'application/vnd.github.v3+json',
+      'Content-Type': 'application/json',
+    };
+    const getRes = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`, { headers });
+    if (!getRes.ok) throw new Error(`GitHub ${getRes.status}: check your PAT and repo access`);
+    const file = await getRes.json();
+    const current = JSON.parse(atob(file.content.replace(/\s/g, '')));
+    current.bets.push(newBet);
+    const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(current, null, 2))));
+    const putRes  = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/${GH_FILE}`, {
+      method: 'PUT', headers,
+      body: JSON.stringify({ message: `Add bet: ${name}`, content: encoded, sha: file.sha }),
+    });
+    if (!putRes.ok) {
+      const err = await putRes.json().catch(() => ({}));
+      throw new Error(err.message ?? `GitHub ${putRes.status}`);
+    }
+    showToast(`"${name}" saved — poller picks it up on next cycle`);
+    closeBuilder();
+  } catch (e) {
+    showToast(`Error: ${e.message}`);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Save Bet';
+  }
+}
+
+// --- Admin init ---
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('admin-btn').addEventListener('click', () => {
+    if (adminUnlocked) {
+      adminUnlocked = false;
+      sessionStorage.removeItem('wd_admin');
+      document.getElementById('admin-btn').textContent = '🔒';
+      document.getElementById('add-bet-btn').classList.add('hidden');
+      showToast('Admin mode off');
+    } else {
+      showPinModal();
+    }
+  });
+  document.getElementById('add-bet-btn').addEventListener('click', openBuilder);
+
+  // Restore admin state across soft refreshes
+  if (adminUnlocked) {
+    document.getElementById('admin-btn').textContent = '🔓';
+    document.getElementById('add-bet-btn').classList.remove('hidden');
+  }
+
+  // PIN input: auto-submit on 4 digits
+  document.getElementById('pin-input').addEventListener('input', e => {
+    if (e.target.value.length === 4) submitPin();
+  });
+}, { once: true });

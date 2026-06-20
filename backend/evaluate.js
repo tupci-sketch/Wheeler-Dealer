@@ -75,9 +75,9 @@ function evaluate(resolvedBets, matchData, playerStats, lineups, prevState = nul
 function evaluateLeg(leg, bet, matchData, playerStats, lineups, prevBet) {
   const prevLeg = prevBet?._legMap?.[leg.id] ?? null;
 
-  // Latch: once won, stays won
-  if (prevLeg?.status === 'won') {
-    return { ...buildLegBase(leg), status: 'won', current: prevLeg.current, value: prevLeg.value, target: prevLeg.target };
+  // Latch: once settled, stays settled — prevents re-evaluation on polls where lineup/stats aren't re-fetched
+  if (prevLeg?.status === 'won' || prevLeg?.status === 'lost' || prevLeg?.status === 'void') {
+    return { ...buildLegBase(leg), status: prevLeg.status, current: prevLeg.current, value: prevLeg.value, target: prevLeg.target };
   }
 
   if (leg.market === 'match_result') {
@@ -95,9 +95,11 @@ function evaluateLeg(leg, bet, matchData, playerStats, lineups, prevBet) {
   const stats = (playerStats[matchId] ?? []).find(s => s.player_id === leg.player_id);
   const lineupEntries = lineups[matchId] ?? [];
 
-  // Void check: player not in squad or didn't play
+  // Void check: player not in squad or didn't play.
+  // Only void on "not in squad" if we actually have lineup data — empty array means data wasn't fetched.
   const inSquad = lineupEntries.some(e => e.player_id === leg.player_id);
-  if (!inSquad && (matchStatus === 'in_progress' || matchStatus === 'completed')) {
+  const hasLineupData = lineupEntries.length > 0;
+  if (!inSquad && hasLineupData && (matchStatus === 'in_progress' || matchStatus === 'completed')) {
     return { ...buildLegBase(leg), status: 'void', current: 0, value: 'DNP — not in squad', target: legTarget(leg) };
   }
   if (stats && (stats.minutes_played === 0) && matchStatus !== 'scheduled') {

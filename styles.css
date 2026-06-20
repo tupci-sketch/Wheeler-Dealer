@@ -373,3 +373,297 @@ footer {
   .leg-row { padding: 8px 12px; }
   .match-info { padding: 8px 12px; }
 }
+
+/* ─── Admin / Bet Builder ─────────────────────────────────────── */
+
+.tabs-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+}
+.admin-btn:hover { opacity: 1; }
+
+.add-bet-btn {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--green);
+  background: transparent;
+  color: var(--green);
+  cursor: pointer;
+  margin-right: 2px;
+  transition: background 0.15s;
+}
+.add-bet-btn:hover { background: var(--green-dim); }
+.add-bet-btn.hidden { display: none; }
+
+/* Modals */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 16px;
+}
+.modal-overlay.hidden { display: none; }
+
+.modal-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 100%;
+  max-height: 90dvh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.modal-sm    { max-width: 320px; }
+.modal-builder { max-width: 520px; }
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px 12px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.modal-header h2 { font-size: 16px; font-weight: 700; }
+
+.modal-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.modal-close:hover { color: var(--text); background: var(--surface2); }
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 14px 18px;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+/* PIN */
+.pin-body {
+  padding: 20px 18px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.pin-input {
+  width: 130px;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 8px;
+  padding: 12px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  outline: none;
+}
+.pin-input:focus { border-color: var(--blue); }
+.pin-error { font-size: 13px; color: var(--red); }
+.pin-error.hidden { display: none; }
+
+/* Buttons */
+.btn-primary {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  background: var(--blue);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.btn-primary:disabled { opacity: 0.5; cursor: default; }
+.btn-primary:not(:disabled):hover { opacity: 0.85; }
+
+.btn-ghost {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 14px;
+  cursor: pointer;
+}
+.btn-ghost:hover { color: var(--text); border-color: var(--text-muted); }
+
+/* Form */
+.form-section {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form-section:last-of-type { border-bottom: none; }
+
+.section-title {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.form-input {
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+}
+.form-input:focus { border-color: var(--blue); }
+
+.form-select {
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--surface2);
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+.form-select:focus { border-color: var(--blue); }
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+.form-row.hidden { display: none; }
+
+.bet-meta-row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.return-display {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+.return-display strong { color: var(--green); }
+
+.form-hint {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+.form-hint code {
+  background: var(--surface2);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+/* Leg form */
+.leg-form { background: var(--surface2); }
+
+.btn-add-leg {
+  align-self: flex-start;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--blue);
+  background: transparent;
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.15s;
+}
+.btn-add-leg:hover { background: var(--blue-dim); }
+
+.hidden { display: none !important; }
+
+/* Builder legs preview */
+.legs-preview { display: flex; flex-direction: column; gap: 6px; }
+
+.no-legs {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.builder-leg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 12px;
+  gap: 10px;
+}
+.builder-leg-label { font-size: 13px; flex: 1; }
+.builder-leg-remove {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 2px;
+  flex-shrink: 0;
+}
+.builder-leg-remove:hover { color: var(--red); }
+
+.leg-count-badge {
+  background: var(--blue-dim);
+  color: var(--blue);
+  border-radius: 10px;
+  padding: 1px 7px;
+  font-size: 11px;
+  font-weight: 700;
+}

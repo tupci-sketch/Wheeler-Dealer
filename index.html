@@ -20,11 +20,15 @@
       <div class="header-meta">
         <span class="updated-label" id="updated-label">Loading…</span>
         <button class="refresh-btn" id="refresh-btn">↻ Refresh</button>
+        <button class="admin-btn" id="admin-btn" title="Admin">🔒</button>
       </div>
     </div>
-    <div class="tabs">
-      <button class="tab-btn active" data-tab="active">Active</button>
-      <button class="tab-btn" data-tab="settled">Settled</button>
+    <div class="tabs-row">
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="active">Active</button>
+        <button class="tab-btn" data-tab="settled">Settled</button>
+      </div>
+      <button class="add-bet-btn hidden" id="add-bet-btn">+ Add Bet</button>
     </div>
   </header>
 
@@ -43,6 +47,145 @@
   </footer>
 
   <div id="toast"></div>
+
+  <!-- PIN Modal -->
+  <div id="pin-modal" class="modal-overlay hidden" onclick="if(event.target===this)closePinModal()">
+    <div class="modal-panel modal-sm">
+      <div class="modal-header">
+        <h2>Admin Access</h2>
+        <button class="modal-close" onclick="closePinModal()">✕</button>
+      </div>
+      <div class="pin-body">
+        <input type="password" id="pin-input" class="pin-input" maxlength="4" inputmode="numeric"
+               placeholder="●●●●" autocomplete="off" onkeydown="if(event.key==='Enter')submitPin()">
+        <p id="pin-error" class="pin-error hidden">Incorrect PIN</p>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-ghost" onclick="closePinModal()">Cancel</button>
+        <button class="btn-primary" onclick="submitPin()">Unlock</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bet Builder Modal -->
+  <div id="builder-modal" class="modal-overlay hidden" onclick="if(event.target===this)closeBuilder()">
+    <div class="modal-panel modal-builder">
+      <div class="modal-header">
+        <h2>Add Bet</h2>
+        <button class="modal-close" onclick="closeBuilder()">✕</button>
+      </div>
+
+      <!-- Bet meta -->
+      <div class="form-section">
+        <label class="form-label">Bet name
+          <input type="text" id="b-name" class="form-input" placeholder="e.g. Five-Fold Acca">
+        </label>
+        <div class="form-row">
+          <label class="form-label" style="flex:1">Stake (£)
+            <input type="number" id="b-stake" class="form-input" value="10" min="0.01" step="0.01" oninput="updateReturn()">
+          </label>
+          <label class="form-label" style="flex:1">Odds
+            <input type="text" id="b-odds" class="form-input" placeholder="e.g. 9/1" oninput="updateReturn()">
+          </label>
+        </div>
+        <div class="form-row bet-meta-row">
+          <label class="toggle-label">
+            <input type="checkbox" id="b-frebet" checked onchange="updateReturn()"> Free Bet
+          </label>
+          <div class="return-display">Return: £<strong id="b-return">—</strong></div>
+        </div>
+      </div>
+
+      <!-- Legs list -->
+      <div class="form-section">
+        <div class="section-title">Legs <span id="leg-count" class="leg-count-badge">0</span></div>
+        <div id="legs-preview" class="legs-preview"></div>
+      </div>
+
+      <!-- Add leg form -->
+      <div class="form-section leg-form">
+        <div class="section-title">Add leg</div>
+
+        <label class="form-label">Match
+          <select id="leg-match" class="form-select" onchange="onMatchChange()">
+            <option value="">— pick match —</option>
+            <option value="custom">Custom (enter match ID)…</option>
+          </select>
+        </label>
+
+        <div id="custom-match-row" class="form-row hidden">
+          <label class="form-label" style="flex:0 0 80px">Match ID
+            <input type="number" id="leg-match-id" class="form-input" placeholder="e.g. 45">
+          </label>
+          <label class="form-label" style="flex:1">Home team
+            <input type="text" id="leg-home" class="form-input" placeholder="e.g. Brazil">
+          </label>
+          <label class="form-label" style="flex:1">Away team
+            <input type="text" id="leg-away" class="form-input" placeholder="e.g. Germany">
+          </label>
+        </div>
+
+        <label class="form-label">Market
+          <select id="leg-market" class="form-select" onchange="onMarketChange()">
+            <option value="match_result">Match Result (team to win)</option>
+            <option value="goal_or_assist">Goal or Assist</option>
+            <option value="shots_on_target">Shots on Target</option>
+            <option value="tackles_won">Tackles Won</option>
+            <option value="fouls_committed">Fouls Committed</option>
+          </select>
+        </label>
+
+        <div id="match-result-sel">
+          <label class="form-label">Selection
+            <select id="leg-team" class="form-select">
+              <option value="">— pick match first —</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="player-prop-sel" class="hidden">
+          <label class="form-label">Player
+            <select id="leg-player" class="form-select" onchange="onPlayerChange()">
+              <option value="">— select player —</option>
+            </select>
+          </label>
+          <div id="custom-player-row" class="form-row hidden">
+            <label class="form-label" style="flex:0 0 90px">Player ID
+              <input type="number" id="leg-player-id" class="form-input" placeholder="e.g. 9227">
+            </label>
+            <label class="form-label" style="flex:1">Player name
+              <input type="text" id="leg-player-name" class="form-input" placeholder="e.g. Vinícius Júnior">
+            </label>
+          </div>
+          <div id="threshold-row" class="hidden">
+            <label class="form-label">Threshold
+              <select id="leg-threshold" class="form-select">
+                <option value="1">1+</option>
+                <option value="2" selected>2+</option>
+                <option value="3">3+</option>
+                <option value="4">4+</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <button class="btn-add-leg" onclick="addLeg()">+ Add to Bet</button>
+      </div>
+
+      <!-- GitHub PAT -->
+      <div class="form-section">
+        <label class="form-label">GitHub PAT
+          <input type="password" id="b-pat" class="form-input" placeholder="ghp_…">
+        </label>
+        <p class="form-hint">Needs <code>contents: write</code> on this repo. Stored locally, never sent anywhere except GitHub.</p>
+      </div>
+
+      <div class="modal-actions">
+        <button class="btn-ghost" onclick="closeBuilder()">Cancel</button>
+        <button class="btn-primary" id="save-bet-btn" onclick="saveBet()">Save Bet</button>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
