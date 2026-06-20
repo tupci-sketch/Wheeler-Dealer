@@ -40,14 +40,21 @@ function apiGet(url) {
       res.on('data', d => body += d);
       res.on('end', () => {
         if (res.statusCode === 429) {
-          reject(new Error('Rate limited (429)'));
+          const retryAfterSec = parseInt(res.headers['retry-after'] ?? '60', 10);
+          const retryMs = retryAfterSec * 1000;
+          console.warn(`[api] 429 from ${url.replace(API_KEY, '***')}`);
+          console.warn(`[api] Retry-After: ${retryAfterSec}s  body: ${body.slice(0, 300)}`);
+          const err = new Error(`Rate limited (429) — retry after ${retryAfterSec}s`);
+          err.retryMs = retryMs;
+          reject(err);
           return;
         }
         if (res.statusCode !== 200) {
           reject(new Error(`HTTP ${res.statusCode}: ${body.slice(0, 200)}`));
           return;
         }
-        resolve(JSON.parse(body));
+        try { resolve(JSON.parse(body)); }
+        catch (e) { reject(new Error(`JSON parse error: ${body.slice(0, 100)}`)); }
       });
     });
     req.on('error', reject);
@@ -224,8 +231,11 @@ async function main() {
       prevState = await poll(resolved, prevState);
     } catch (err) {
       console.error(`[poll] Error: ${err.message}`);
-      // On rate limit, wait longer
-      if (err.message.includes('429')) await sleep(60000);
+      if (err.message.includes('429')) {
+        const backoff = err.retryMs ?? 60000;
+        console.log(`[poll] Rate-limit backoff: ${backoff / 1000}s`);
+        await sleep(backoff);
+      }
     }
 
     const elapsed = Date.now() - start;
