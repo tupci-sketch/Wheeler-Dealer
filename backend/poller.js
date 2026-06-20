@@ -76,7 +76,7 @@ async function getAllPages(endpoint) {
     results.push(...items);
     // Use || so that empty-string / 0 / false all terminate pagination
     cursor = data.meta?.next_cursor || null;
-    if (cursor) await sleep(300);
+    if (cursor) await sleep(1000);
   } while (cursor);
   return results;
 }
@@ -112,7 +112,7 @@ async function fetchPlayerStats(matchIds) {
   for (const id of matchIds) {
     const rows = await getAllPages(`/player_match_stats?match_ids[]=${id}`);
     result[String(id)] = rows;
-    if (id !== matchIds[matchIds.length - 1]) await sleep(300);
+    if (id !== matchIds[matchIds.length - 1]) await sleep(1000);
   }
   return result;
 }
@@ -127,7 +127,7 @@ async function fetchLineups(matchIds) {
       team_id: e.team_id,
       is_starter: e.is_starter,
     }));
-    if (id !== matchIds[matchIds.length - 1]) await sleep(300);
+    if (id !== matchIds[matchIds.length - 1]) await sleep(1000);
   }
   return result;
 }

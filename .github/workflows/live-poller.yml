@@ -12,6 +12,10 @@ on:
         required: false
         default: '10800000'
 
+concurrency:
+  group: live-poller
+  cancel-in-progress: true
+
 jobs:
   poll:
     runs-on: ubuntu-latest
