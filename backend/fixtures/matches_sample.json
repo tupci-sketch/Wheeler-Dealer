@@ -1,0 +1,6840 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "match_number": 1,
+      "datetime": "2026-06-11T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 15,
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "MEX",
+        "capacity": 87523,
+        "latitude": 19.303043,
+        "longitude": -99.150485
+      },
+      "home_team": {
+        "id": 1,
+        "name": "Mexico",
+        "abbreviation": "MEX",
+        "country_code": "MEX",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 2,
+        "name": "South Africa",
+        "abbreviation": "RSA",
+        "country_code": "RSA",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-1-4-1",
+      "away_formation": "5-3-2",
+      "referee": {
+        "id": 156,
+        "name": "Wilton Pereira Sampaio",
+        "country_code": "BRA",
+        "country_name": "Brazil"
+      },
+      "home_manager": {
+        "id": 411,
+        "name": "Javier Aguirre",
+        "short_name": "J. Aguirre"
+      },
+      "away_manager": {
+        "id": 412,
+        "name": "Hugo Broos",
+        "short_name": "H. Broos"
+      }
+    },
+    {
+      "id": 2,
+      "match_number": 1,
+      "datetime": "2026-06-12T02:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 11,
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "MEX",
+        "capacity": 46355,
+        "latitude": 20.681927,
+        "longitude": -103.462431
+      },
+      "home_team": {
+        "id": 3,
+        "name": "South Korea",
+        "abbreviation": "KOR",
+        "country_code": "KOR",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 4,
+        "name": "Czechia",
+        "abbreviation": "CZE",
+        "country_code": "CZE",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 2,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "3-4-2-1",
+      "away_formation": "3-4-2-1",
+      "referee": {
+        "id": 313,
+        "name": "Amin Mohamed Omar",
+        "country_code": "EGY",
+        "country_name": "Egypt"
+      },
+      "home_manager": {
+        "id": 623,
+        "name": "Myung Bo Hong",
+        "short_name": "M. B. Hong"
+      },
+      "away_manager": {
+        "id": 624,
+        "name": "Miroslav Koubek",
+        "short_name": "M. Koubek"
+      }
+    },
+    {
+      "id": 3,
+      "match_number": 1,
+      "datetime": "2026-06-12T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 5,
+        "name": "Canada",
+        "abbreviation": "CAN",
+        "country_code": "CAN",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 6,
+        "name": "Bosnia & Herzegovina",
+        "abbreviation": "BIH",
+        "country_code": "BIH",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 76,
+        "name": "Facundo Raul Tello Figueroa",
+        "country_code": "ARG",
+        "country_name": "Argentina"
+      },
+      "home_manager": {
+        "id": 807,
+        "name": "Jesse Marsch",
+        "short_name": "J. Marsch"
+      },
+      "away_manager": {
+        "id": 808,
+        "name": "Sergej Barbarez",
+        "short_name": "S. Barbarez"
+      }
+    },
+    {
+      "id": 4,
+      "match_number": 1,
+      "datetime": "2026-06-13T01:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 13,
+        "name": "USA",
+        "abbreviation": "USA",
+        "country_code": "USA",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 14,
+        "name": "Paraguay",
+        "abbreviation": "PAR",
+        "country_code": "PAR",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 4,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 3,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 70,
+        "name": "Danny Makkelie",
+        "country_code": "NLD",
+        "country_name": "Netherlands"
+      },
+      "home_manager": {
+        "id": 873,
+        "name": "Mauricio Pochettino",
+        "short_name": "M. Pochettino"
+      },
+      "away_manager": {
+        "id": 372,
+        "name": "Gustavo Alfaro",
+        "short_name": "G. Alfaro"
+      }
+    },
+    {
+      "id": 5,
+      "match_number": 1,
+      "datetime": "2026-06-13T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 7,
+        "name": "Qatar",
+        "abbreviation": "QAT",
+        "country_code": "QAT",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 8,
+        "name": "Switzerland",
+        "abbreviation": "SUI",
+        "country_code": "SUI",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-3-3",
+      "away_formation": "4-3-3",
+      "referee": {
+        "id": 519,
+        "name": "Said Martinez",
+        "country_code": "HND",
+        "country_name": "Honduras"
+      },
+      "home_manager": {
+        "id": 1033,
+        "name": "Julen Lopetegui",
+        "short_name": "J. Lopetegui"
+      },
+      "away_manager": {
+        "id": 154,
+        "name": "Murat Yakin",
+        "short_name": "M. Yakin"
+      }
+    },
+    {
+      "id": 6,
+      "match_number": 1,
+      "datetime": "2026-06-13T22:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 9,
+        "name": "Brazil",
+        "abbreviation": "BRA",
+        "country_code": "BRA",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 10,
+        "name": "Morocco",
+        "abbreviation": "MAR",
+        "country_code": "MAR",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 1,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 66,
+        "name": "Slavko Vin\u010di\u0107",
+        "country_code": "SVN",
+        "country_name": "Slovenia"
+      },
+      "home_manager": {
+        "id": 1035,
+        "name": "Carlo Ancelotti",
+        "short_name": "C. Ancelotti"
+      },
+      "away_manager": {
+        "id": 1036,
+        "name": "Mohamed Ouahbi",
+        "short_name": "M. Ouahbi"
+      }
+    },
+    {
+      "id": 7,
+      "match_number": 1,
+      "datetime": "2026-06-14T01:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 11,
+        "name": "Haiti",
+        "abbreviation": "HAI",
+        "country_code": "HAI",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 12,
+        "name": "Scotland",
+        "abbreviation": "SCO",
+        "country_code": "SCO",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 0,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 67,
+        "name": "Mustapha Ghorbal",
+        "country_code": "DZA",
+        "country_name": "Algeria"
+      },
+      "home_manager": {
+        "id": 1037,
+        "name": "S\u00e9bastien Mign\u00e9",
+        "short_name": "S. Mign\u00e9"
+      },
+      "away_manager": {
+        "id": 1038,
+        "name": "Steve Clarke",
+        "short_name": "S. Clarke"
+      }
+    },
+    {
+      "id": 8,
+      "match_number": 1,
+      "datetime": "2026-06-14T04:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 15,
+        "name": "Australia",
+        "abbreviation": "AUS",
+        "country_code": "AUS",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 16,
+        "name": "T\u00fcrkiye",
+        "abbreviation": "TUR",
+        "country_code": "TUR",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "5-4-1",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 158,
+        "name": "Jes\u00fas Valenzuela",
+        "country_code": "VEN",
+        "country_name": "Venezuela"
+      },
+      "home_manager": {
+        "id": 1039,
+        "name": "Tony Popovic",
+        "short_name": "T. Popovic"
+      },
+      "away_manager": {
+        "id": 1040,
+        "name": "Vincenzo Montella",
+        "short_name": "V. Montella"
+      }
+    },
+    {
+      "id": 9,
+      "match_number": 1,
+      "datetime": "2026-06-14T17:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 17,
+        "name": "Germany",
+        "abbreviation": "GER",
+        "country_code": "GER",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 18,
+        "name": "Cura\u00e7ao",
+        "abbreviation": "CUW",
+        "country_code": "CUW",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 7,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 3,
+      "first_half_away_score": 1,
+      "second_half_home_score": 4,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-3-1-2",
+      "referee": {
+        "id": 578,
+        "name": "Jalal Jayed",
+        "country_code": "MAR",
+        "country_name": "Morocco"
+      },
+      "home_manager": {
+        "id": 1077,
+        "name": "Julian Nagelsmann",
+        "short_name": "J. Nagelsmann"
+      },
+      "away_manager": {
+        "id": 1078,
+        "name": "Dick Advocaat",
+        "short_name": "D. Advocaat"
+      }
+    },
+    {
+      "id": 10,
+      "match_number": 1,
+      "datetime": "2026-06-14T20:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 21,
+        "name": "Netherlands",
+        "abbreviation": "NED",
+        "country_code": "NED",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 22,
+        "name": "Japan",
+        "abbreviation": "JPN",
+        "country_code": "JPN",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 2,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 2,
+      "second_half_away_score": 2,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-3-3",
+      "away_formation": "3-4-2-1",
+      "referee": {
+        "id": 155,
+        "name": "Ismail Elfath",
+        "country_code": "USA",
+        "country_name": "USA"
+      },
+      "home_manager": {
+        "id": 1079,
+        "name": "Ronald Koeman",
+        "short_name": "R. Koeman"
+      },
+      "away_manager": {
+        "id": 147,
+        "name": "Hajime Moriyasu",
+        "short_name": "H. Moriyasu"
+      }
+    },
+    {
+      "id": 11,
+      "match_number": 1,
+      "datetime": "2026-06-14T23:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 19,
+        "name": "C\u00f4te d'Ivoire",
+        "abbreviation": "CIV",
+        "country_code": "CIV",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 20,
+        "name": "Ecuador",
+        "abbreviation": "ECU",
+        "country_code": "ECU",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 580,
+        "name": "Fran\u00e7ois Letexier",
+        "country_code": "FRA",
+        "country_name": "France"
+      },
+      "home_manager": {
+        "id": 1081,
+        "name": "Emerse Fa\u00e9",
+        "short_name": "E. Fa\u00e9"
+      },
+      "away_manager": {
+        "id": 1082,
+        "name": "Sebastian Beccacece",
+        "short_name": "S. Beccacece"
+      }
+    },
+    {
+      "id": 12,
+      "match_number": 1,
+      "datetime": "2026-06-15T02:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 7,
+        "name": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MEX",
+        "capacity": 53500,
+        "latitude": 25.669296,
+        "longitude": -100.243982
+      },
+      "home_team": {
+        "id": 23,
+        "name": "Sweden",
+        "abbreviation": "SWE",
+        "country_code": "SWE",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 24,
+        "name": "Tunisia",
+        "abbreviation": "TUN",
+        "country_code": "TUN",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 5,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 2,
+      "first_half_away_score": 1,
+      "second_half_home_score": 3,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "3-1-4-2",
+      "away_formation": "5-3-2",
+      "referee": {
+        "id": 581,
+        "name": "Yael Falcon Perez",
+        "country_code": "ARG",
+        "country_name": "Argentina"
+      },
+      "home_manager": {
+        "id": 1083,
+        "name": "Graham Potter",
+        "short_name": "G. Potter"
+      },
+      "away_manager": {
+        "id": 1084,
+        "name": "Sabri Lamouchi",
+        "short_name": "S. Lamouchi"
+      }
+    },
+    {
+      "id": 13,
+      "match_number": 1,
+      "datetime": "2026-06-15T16:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 29,
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "country_code": "ESP",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 30,
+        "name": "Cabo Verde",
+        "abbreviation": "CPV",
+        "country_code": "CPV",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-3-3",
+      "away_formation": "4-1-4-1",
+      "referee": {
+        "id": 582,
+        "name": "Adham Mohammad",
+        "country_code": "JOR",
+        "country_name": "Jordan"
+      },
+      "home_manager": {
+        "id": 1085,
+        "name": "Luis De La Fuente",
+        "short_name": "L. D. L. Fuente"
+      },
+      "away_manager": {
+        "id": 1086,
+        "name": "Bubista",
+        "short_name": "Bubista"
+      }
+    },
+    {
+      "id": 14,
+      "match_number": 1,
+      "datetime": "2026-06-15T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 25,
+        "name": "Belgium",
+        "abbreviation": "BEL",
+        "country_code": "BEL",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 26,
+        "name": "Egypt",
+        "abbreviation": "EGY",
+        "country_code": "EGY",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 583,
+        "name": "Ramon Abatti Abel",
+        "country_code": "BRA",
+        "country_name": "Brazil"
+      },
+      "home_manager": {
+        "id": 1087,
+        "name": "Rudi Garcia",
+        "short_name": "R. Garcia"
+      },
+      "away_manager": {
+        "id": 1088,
+        "name": "Hossam Hassan",
+        "short_name": "H. Hassan"
+      }
+    },
+    {
+      "id": 15,
+      "match_number": 1,
+      "datetime": "2026-06-15T22:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 31,
+        "name": "Saudi Arabia",
+        "abbreviation": "KSA",
+        "country_code": "KSA",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 32,
+        "name": "Uruguay",
+        "abbreviation": "URU",
+        "country_code": "URU",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 0,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 584,
+        "name": "Maurizio Mariani",
+        "country_code": "ITA",
+        "country_name": "Italy"
+      },
+      "home_manager": {
+        "id": 1089,
+        "name": "Georgios Donis",
+        "short_name": "G. Donis"
+      },
+      "away_manager": {
+        "id": 1090,
+        "name": "Marcelo Bielsa",
+        "short_name": "M. Bielsa"
+      }
+    },
+    {
+      "id": 16,
+      "match_number": 1,
+      "datetime": "2026-06-16T01:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 27,
+        "name": "Iran",
+        "abbreviation": "IRN",
+        "country_code": "IRN",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 28,
+        "name": "New Zealand",
+        "abbreviation": "NZL",
+        "country_code": "NZL",
+        "confederation": "OFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 2,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 1,
+      "second_half_home_score": 1,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 16,
+        "name": "C\u00e9sar Ramos Palazuelos",
+        "country_code": "MEX",
+        "country_name": "Mexico"
+      },
+      "home_manager": {
+        "id": 1091,
+        "name": "Amir Ghalenoei",
+        "short_name": "A. Ghalenoei"
+      },
+      "away_manager": {
+        "id": 1092,
+        "name": "Darren Bazeley",
+        "short_name": "D. Bazeley"
+      }
+    },
+    {
+      "id": 17,
+      "match_number": 1,
+      "datetime": "2026-06-16T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 33,
+        "name": "France",
+        "abbreviation": "FRA",
+        "country_code": "FRA",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 34,
+        "name": "Senegal",
+        "abbreviation": "SEN",
+        "country_code": "SEN",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 3,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 3,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 10,
+        "name": "Alireza Faghani",
+        "country_code": "AUS",
+        "country_name": "Australia"
+      },
+      "home_manager": {
+        "id": 8,
+        "name": "Didier Deschamps",
+        "short_name": "D. Deschamps"
+      },
+      "away_manager": {
+        "id": 1094,
+        "name": "Pape Thiaw",
+        "short_name": "P. Thiaw"
+      }
+    },
+    {
+      "id": 18,
+      "match_number": 1,
+      "datetime": "2026-06-16T22:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 35,
+        "name": "Iraq",
+        "abbreviation": "IRQ",
+        "country_code": "IRQ",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 36,
+        "name": "Norway",
+        "abbreviation": "NOR",
+        "country_code": "NOR",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 4,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 2,
+      "second_half_home_score": 0,
+      "second_half_away_score": 2,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 587,
+        "name": "Pierre Ghislain Atcho",
+        "country_code": "GAB",
+        "country_name": "Gabon"
+      },
+      "home_manager": {
+        "id": 133,
+        "name": "Graham Arnold",
+        "short_name": "G. Arnold"
+      },
+      "away_manager": {
+        "id": 1096,
+        "name": "St\u00e5le Solbakken",
+        "short_name": "S. Solbakken"
+      }
+    },
+    {
+      "id": 19,
+      "match_number": 1,
+      "datetime": "2026-06-17T01:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 37,
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "country_code": "ARG",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 38,
+        "name": "Algeria",
+        "abbreviation": "ALG",
+        "country_code": "ALG",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 3,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 2,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-3-3",
+      "referee": {
+        "id": 32,
+        "name": "Szymon Marciniak",
+        "country_code": "POL",
+        "country_name": "Poland"
+      },
+      "home_manager": {
+        "id": 140,
+        "name": "Lionel Scaloni",
+        "short_name": "L. Scaloni"
+      },
+      "away_manager": {
+        "id": 17,
+        "name": "Vladimir Petkovi\u0107",
+        "short_name": "V. Petkovi\u0107"
+      }
+    },
+    {
+      "id": 20,
+      "match_number": 1,
+      "datetime": "2026-06-17T04:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 39,
+        "name": "Austria",
+        "abbreviation": "AUT",
+        "country_code": "AUT",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 40,
+        "name": "Jordan",
+        "abbreviation": "JOR",
+        "country_code": "JOR",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 3,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 2,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "3-4-2-1",
+      "referee": {
+        "id": 589,
+        "name": "Dahane Beida",
+        "country_code": "MRT",
+        "country_name": "Mauritania"
+      },
+      "home_manager": {
+        "id": 1099,
+        "name": "Ralf Rangnick",
+        "short_name": "R. Rangnick"
+      },
+      "away_manager": {
+        "id": 1100,
+        "name": "Jamal Sellami",
+        "short_name": "J. Sellami"
+      }
+    },
+    {
+      "id": 21,
+      "match_number": 1,
+      "datetime": "2026-06-17T17:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 41,
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "country_code": "POR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 44,
+        "name": "DR Congo",
+        "abbreviation": "COD",
+        "country_code": "COD",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 1,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "5-3-2",
+      "referee": {
+        "id": 170,
+        "name": "Abdulrahman Al-Jassim",
+        "country_code": "QAT",
+        "country_name": "Qatar"
+      },
+      "home_manager": {
+        "id": 28,
+        "name": "Roberto Mart\u00ednez",
+        "short_name": "R. Mart\u00ednez"
+      },
+      "away_manager": {
+        "id": 1102,
+        "name": "Sebastien Desabre",
+        "short_name": "S. Desabre"
+      }
+    },
+    {
+      "id": 22,
+      "match_number": 1,
+      "datetime": "2026-06-17T20:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 45,
+        "name": "England",
+        "abbreviation": "ENG",
+        "country_code": "ENG",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 46,
+        "name": "Croatia",
+        "abbreviation": "CRO",
+        "country_code": "CRO",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 4,
+      "away_score": 2,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 2,
+      "first_half_away_score": 2,
+      "second_half_home_score": 2,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "3-4-2-1",
+      "referee": {
+        "id": 9,
+        "name": "Clement Turpin",
+        "country_code": "FRA",
+        "country_name": "France"
+      },
+      "home_manager": {
+        "id": 1103,
+        "name": "Thomas Tuchel",
+        "short_name": "T. Tuchel"
+      },
+      "away_manager": {
+        "id": 10,
+        "name": "Zlatko Dali\u0107",
+        "short_name": "Z. Dali\u0107"
+      }
+    },
+    {
+      "id": 23,
+      "match_number": 1,
+      "datetime": "2026-06-17T23:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 47,
+        "name": "Ghana",
+        "abbreviation": "GHA",
+        "country_code": "GHA",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 48,
+        "name": "Panama",
+        "abbreviation": "PAN",
+        "country_code": "PAN",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "4-4-1-1",
+      "away_formation": "3-4-3",
+      "referee": {
+        "id": 592,
+        "name": "Glenn Nyberg",
+        "country_code": "SWE",
+        "country_name": "Sweden"
+      },
+      "home_manager": {
+        "id": 3,
+        "name": "Carlos Queiroz",
+        "short_name": "C. Queiroz"
+      },
+      "away_manager": {
+        "id": 1106,
+        "name": "Thomas Christiansen",
+        "short_name": "T. Christiansen"
+      }
+    },
+    {
+      "id": 24,
+      "match_number": 1,
+      "datetime": "2026-06-18T02:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 15,
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "MEX",
+        "capacity": 87523,
+        "latitude": 19.303043,
+        "longitude": -99.150485
+      },
+      "home_team": {
+        "id": 43,
+        "name": "Uzbekistan",
+        "abbreviation": "UZB",
+        "country_code": "UZB",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 42,
+        "name": "Colombia",
+        "abbreviation": "COL",
+        "country_code": "COL",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 3,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 1,
+      "second_half_away_score": 2,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 1,
+      "round_name": null,
+      "home_formation": "3-4-2-1",
+      "away_formation": "4-3-3",
+      "referee": {
+        "id": 72,
+        "name": "Anthony Taylor",
+        "country_code": "ENG",
+        "country_name": "England"
+      },
+      "home_manager": {
+        "id": 1107,
+        "name": "Fabio Cannavaro",
+        "short_name": "F. Cannavaro"
+      },
+      "away_manager": {
+        "id": 1108,
+        "name": "Nestor Lorenzo",
+        "short_name": "N. Lorenzo"
+      }
+    },
+    {
+      "id": 25,
+      "match_number": 2,
+      "datetime": "2026-06-18T16:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 4,
+        "name": "Czechia",
+        "abbreviation": "CZE",
+        "country_code": "CZE",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 2,
+        "name": "South Africa",
+        "abbreviation": "RSA",
+        "country_code": "RSA",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": 0,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "3-5-2",
+      "away_formation": "4-3-3",
+      "referee": {
+        "id": 594,
+        "name": "Tori Penso",
+        "country_code": "USA",
+        "country_name": "USA"
+      },
+      "home_manager": {
+        "id": 624,
+        "name": "Miroslav Koubek",
+        "short_name": "M. Koubek"
+      },
+      "away_manager": {
+        "id": 412,
+        "name": "Hugo Broos",
+        "short_name": "H. Broos"
+      }
+    },
+    {
+      "id": 26,
+      "match_number": 2,
+      "datetime": "2026-06-18T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 8,
+        "name": "Switzerland",
+        "abbreviation": "SUI",
+        "country_code": "SUI",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 6,
+        "name": "Bosnia & Herzegovina",
+        "abbreviation": "BIH",
+        "country_code": "BIH",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 4,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 4,
+      "second_half_away_score": 1,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-3-1-2",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 595,
+        "name": "Joao Pedro Pinheiro",
+        "country_code": "PRT",
+        "country_name": "Portugal"
+      },
+      "home_manager": {
+        "id": 154,
+        "name": "Murat Yakin",
+        "short_name": "M. Yakin"
+      },
+      "away_manager": {
+        "id": 808,
+        "name": "Sergej Barbarez",
+        "short_name": "S. Barbarez"
+      }
+    },
+    {
+      "id": 27,
+      "match_number": 2,
+      "datetime": "2026-06-18T22:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 5,
+        "name": "Canada",
+        "abbreviation": "CAN",
+        "country_code": "CAN",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 7,
+        "name": "Qatar",
+        "abbreviation": "QAT",
+        "country_code": "QAT",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 6,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 3,
+      "first_half_away_score": 0,
+      "second_half_home_score": 3,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-4-2",
+      "away_formation": "4-3-3",
+      "referee": {
+        "id": 596,
+        "name": "Cristian Garay",
+        "country_code": "CHL",
+        "country_name": "Chile"
+      },
+      "home_manager": {
+        "id": 807,
+        "name": "Jesse Marsch",
+        "short_name": "J. Marsch"
+      },
+      "away_manager": {
+        "id": 1033,
+        "name": "Julen Lopetegui",
+        "short_name": "J. Lopetegui"
+      }
+    },
+    {
+      "id": 28,
+      "match_number": 2,
+      "datetime": "2026-06-19T01:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 11,
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "MEX",
+        "capacity": 46355,
+        "latitude": 20.681927,
+        "longitude": -103.462431
+      },
+      "home_team": {
+        "id": 1,
+        "name": "Mexico",
+        "abbreviation": "MEX",
+        "country_code": "MEX",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 3,
+        "name": "South Korea",
+        "abbreviation": "KOR",
+        "country_code": "KOR",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 0,
+      "second_half_home_score": 1,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-3-3",
+      "away_formation": "3-4-2-1",
+      "referee": {
+        "id": 597,
+        "name": "Gustavo Tejera",
+        "country_code": "URY",
+        "country_name": "Uruguay"
+      },
+      "home_manager": {
+        "id": 411,
+        "name": "Javier Aguirre",
+        "short_name": "J. Aguirre"
+      },
+      "away_manager": {
+        "id": 623,
+        "name": "Myung Bo Hong",
+        "short_name": "M. B. Hong"
+      }
+    },
+    {
+      "id": 29,
+      "match_number": 2,
+      "datetime": "2026-06-19T19:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 13,
+        "name": "USA",
+        "abbreviation": "USA",
+        "country_code": "USA",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 15,
+        "name": "Australia",
+        "abbreviation": "AUS",
+        "country_code": "AUS",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 2,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 2,
+      "first_half_away_score": 0,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "3-5-2",
+      "away_formation": "5-4-1",
+      "referee": {
+        "id": 598,
+        "name": "Felix Zwayer",
+        "country_code": "DEU",
+        "country_name": "Germany"
+      },
+      "home_manager": {
+        "id": 873,
+        "name": "Mauricio Pochettino",
+        "short_name": "M. Pochettino"
+      },
+      "away_manager": {
+        "id": 1039,
+        "name": "Tony Popovic",
+        "short_name": "T. Popovic"
+      }
+    },
+    {
+      "id": 30,
+      "match_number": 2,
+      "datetime": "2026-06-19T22:00:00.000Z",
+      "status": "completed",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 12,
+        "name": "Scotland",
+        "abbreviation": "SCO",
+        "country_code": "SCO",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 10,
+        "name": "Morocco",
+        "abbreviation": "MAR",
+        "country_code": "MAR",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 0,
+      "away_score": 1,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 0,
+      "first_half_away_score": 1,
+      "second_half_home_score": 0,
+      "second_half_away_score": 0,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-4-1-1",
+      "away_formation": "4-2-3-1",
+      "referee": {
+        "id": 599,
+        "name": "Ilgiz Tantashev",
+        "country_code": "UZB",
+        "country_name": "Uzbekistan"
+      },
+      "home_manager": {
+        "id": 1038,
+        "name": "Steve Clarke",
+        "short_name": "S. Clarke"
+      },
+      "away_manager": {
+        "id": 1036,
+        "name": "Mohamed Ouahbi",
+        "short_name": "M. Ouahbi"
+      }
+    },
+    {
+      "id": 31,
+      "match_number": 2,
+      "datetime": "2026-06-20T00:30:00.000Z",
+      "status": "in_progress",
+      "clock_display": "25:02",
+      "clock_seconds": 1502,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 9,
+        "name": "Brazil",
+        "abbreviation": "BRA",
+        "country_code": "BRA",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 11,
+        "name": "Haiti",
+        "abbreviation": "HAI",
+        "country_code": "HAI",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": 1,
+      "first_half_away_score": 0,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-3-3",
+      "away_formation": "5-4-1",
+      "referee": {
+        "id": 600,
+        "name": "Alejandro Hernandez",
+        "country_code": "ESP",
+        "country_name": "Spain"
+      },
+      "home_manager": {
+        "id": 1035,
+        "name": "Carlo Ancelotti",
+        "short_name": "C. Ancelotti"
+      },
+      "away_manager": {
+        "id": 1037,
+        "name": "S\u00e9bastien Mign\u00e9",
+        "short_name": "S. Mign\u00e9"
+      }
+    },
+    {
+      "id": 32,
+      "match_number": 2,
+      "datetime": "2026-06-20T03:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 16,
+        "name": "T\u00fcrkiye",
+        "abbreviation": "TUR",
+        "country_code": "TUR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 14,
+        "name": "Paraguay",
+        "abbreviation": "PAR",
+        "country_code": "PAR",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": "4-2-3-1",
+      "away_formation": "4-4-2",
+      "referee": {
+        "id": 159,
+        "name": "Iv\u00e1n Barton",
+        "country_code": "SLV",
+        "country_name": "El Salvador"
+      },
+      "home_manager": {
+        "id": 1040,
+        "name": "Vincenzo Montella",
+        "short_name": "V. Montella"
+      },
+      "away_manager": {
+        "id": 372,
+        "name": "Gustavo Alfaro",
+        "short_name": "G. Alfaro"
+      }
+    },
+    {
+      "id": 33,
+      "match_number": 2,
+      "datetime": "2026-06-20T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 21,
+        "name": "Netherlands",
+        "abbreviation": "NED",
+        "country_code": "NED",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 23,
+        "name": "Sweden",
+        "abbreviation": "SWE",
+        "country_code": "SWE",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 34,
+      "match_number": 2,
+      "datetime": "2026-06-20T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 17,
+        "name": "Germany",
+        "abbreviation": "GER",
+        "country_code": "GER",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 19,
+        "name": "C\u00f4te d'Ivoire",
+        "abbreviation": "CIV",
+        "country_code": "CIV",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 35,
+      "match_number": 2,
+      "datetime": "2026-06-21T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 20,
+        "name": "Ecuador",
+        "abbreviation": "ECU",
+        "country_code": "ECU",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 18,
+        "name": "Cura\u00e7ao",
+        "abbreviation": "CUW",
+        "country_code": "CUW",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 36,
+      "match_number": 2,
+      "datetime": "2026-06-21T04:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 7,
+        "name": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MEX",
+        "capacity": 53500,
+        "latitude": 25.669296,
+        "longitude": -100.243982
+      },
+      "home_team": {
+        "id": 24,
+        "name": "Tunisia",
+        "abbreviation": "TUN",
+        "country_code": "TUN",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 22,
+        "name": "Japan",
+        "abbreviation": "JPN",
+        "country_code": "JPN",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 37,
+      "match_number": 2,
+      "datetime": "2026-06-21T16:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 29,
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "country_code": "ESP",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 31,
+        "name": "Saudi Arabia",
+        "abbreviation": "KSA",
+        "country_code": "KSA",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 38,
+      "match_number": 2,
+      "datetime": "2026-06-21T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 25,
+        "name": "Belgium",
+        "abbreviation": "BEL",
+        "country_code": "BEL",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 27,
+        "name": "Iran",
+        "abbreviation": "IRN",
+        "country_code": "IRN",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 39,
+      "match_number": 2,
+      "datetime": "2026-06-21T22:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 32,
+        "name": "Uruguay",
+        "abbreviation": "URU",
+        "country_code": "URU",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 30,
+        "name": "Cabo Verde",
+        "abbreviation": "CPV",
+        "country_code": "CPV",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 40,
+      "match_number": 2,
+      "datetime": "2026-06-22T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 28,
+        "name": "New Zealand",
+        "abbreviation": "NZL",
+        "country_code": "NZL",
+        "confederation": "OFC"
+      },
+      "away_team": {
+        "id": 26,
+        "name": "Egypt",
+        "abbreviation": "EGY",
+        "country_code": "EGY",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 41,
+      "match_number": 2,
+      "datetime": "2026-06-22T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 37,
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "country_code": "ARG",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 39,
+        "name": "Austria",
+        "abbreviation": "AUT",
+        "country_code": "AUT",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 42,
+      "match_number": 2,
+      "datetime": "2026-06-22T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 33,
+        "name": "France",
+        "abbreviation": "FRA",
+        "country_code": "FRA",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 35,
+        "name": "Iraq",
+        "abbreviation": "IRQ",
+        "country_code": "IRQ",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 43,
+      "match_number": 2,
+      "datetime": "2026-06-23T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 36,
+        "name": "Norway",
+        "abbreviation": "NOR",
+        "country_code": "NOR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 34,
+        "name": "Senegal",
+        "abbreviation": "SEN",
+        "country_code": "SEN",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 44,
+      "match_number": 2,
+      "datetime": "2026-06-23T03:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 40,
+        "name": "Jordan",
+        "abbreviation": "JOR",
+        "country_code": "JOR",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 38,
+        "name": "Algeria",
+        "abbreviation": "ALG",
+        "country_code": "ALG",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 45,
+      "match_number": 2,
+      "datetime": "2026-06-23T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 41,
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "country_code": "POR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 43,
+        "name": "Uzbekistan",
+        "abbreviation": "UZB",
+        "country_code": "UZB",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 46,
+      "match_number": 2,
+      "datetime": "2026-06-23T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 45,
+        "name": "England",
+        "abbreviation": "ENG",
+        "country_code": "ENG",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 47,
+        "name": "Ghana",
+        "abbreviation": "GHA",
+        "country_code": "GHA",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 47,
+      "match_number": 2,
+      "datetime": "2026-06-23T23:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 48,
+        "name": "Panama",
+        "abbreviation": "PAN",
+        "country_code": "PAN",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 46,
+        "name": "Croatia",
+        "abbreviation": "CRO",
+        "country_code": "CRO",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 48,
+      "match_number": 2,
+      "datetime": "2026-06-24T02:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 11,
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "MEX",
+        "capacity": 46355,
+        "latitude": 20.681927,
+        "longitude": -103.462431
+      },
+      "home_team": {
+        "id": 42,
+        "name": "Colombia",
+        "abbreviation": "COL",
+        "country_code": "COL",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 44,
+        "name": "DR Congo",
+        "abbreviation": "COD",
+        "country_code": "COD",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 2,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 49,
+      "match_number": 3,
+      "datetime": "2026-06-24T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 8,
+        "name": "Switzerland",
+        "abbreviation": "SUI",
+        "country_code": "SUI",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 5,
+        "name": "Canada",
+        "abbreviation": "CAN",
+        "country_code": "CAN",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 50,
+      "match_number": 3,
+      "datetime": "2026-06-24T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 2,
+        "name": "Group B"
+      },
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 6,
+        "name": "Bosnia & Herzegovina",
+        "abbreviation": "BIH",
+        "country_code": "BIH",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 7,
+        "name": "Qatar",
+        "abbreviation": "QAT",
+        "country_code": "QAT",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 51,
+      "match_number": 3,
+      "datetime": "2026-06-24T22:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 12,
+        "name": "Scotland",
+        "abbreviation": "SCO",
+        "country_code": "SCO",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 9,
+        "name": "Brazil",
+        "abbreviation": "BRA",
+        "country_code": "BRA",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 52,
+      "match_number": 3,
+      "datetime": "2026-06-24T22:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 3,
+        "name": "Group C"
+      },
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 10,
+        "name": "Morocco",
+        "abbreviation": "MAR",
+        "country_code": "MAR",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 11,
+        "name": "Haiti",
+        "abbreviation": "HAI",
+        "country_code": "HAI",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 53,
+      "match_number": 3,
+      "datetime": "2026-06-25T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 15,
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "MEX",
+        "capacity": 87523,
+        "latitude": 19.303043,
+        "longitude": -99.150485
+      },
+      "home_team": {
+        "id": 4,
+        "name": "Czechia",
+        "abbreviation": "CZE",
+        "country_code": "CZE",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 1,
+        "name": "Mexico",
+        "abbreviation": "MEX",
+        "country_code": "MEX",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 54,
+      "match_number": 3,
+      "datetime": "2026-06-25T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 1,
+        "name": "Group A"
+      },
+      "stadium": {
+        "id": 7,
+        "name": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MEX",
+        "capacity": 53500,
+        "latitude": 25.669296,
+        "longitude": -100.243982
+      },
+      "home_team": {
+        "id": 2,
+        "name": "South Africa",
+        "abbreviation": "RSA",
+        "country_code": "RSA",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 3,
+        "name": "South Korea",
+        "abbreviation": "KOR",
+        "country_code": "KOR",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 55,
+      "match_number": 3,
+      "datetime": "2026-06-25T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 20,
+        "name": "Ecuador",
+        "abbreviation": "ECU",
+        "country_code": "ECU",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 17,
+        "name": "Germany",
+        "abbreviation": "GER",
+        "country_code": "GER",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 56,
+      "match_number": 3,
+      "datetime": "2026-06-25T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 5,
+        "name": "Group E"
+      },
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 18,
+        "name": "Cura\u00e7ao",
+        "abbreviation": "CUW",
+        "country_code": "CUW",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 19,
+        "name": "C\u00f4te d'Ivoire",
+        "abbreviation": "CIV",
+        "country_code": "CIV",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 57,
+      "match_number": 3,
+      "datetime": "2026-06-25T23:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 24,
+        "name": "Tunisia",
+        "abbreviation": "TUN",
+        "country_code": "TUN",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 21,
+        "name": "Netherlands",
+        "abbreviation": "NED",
+        "country_code": "NED",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 58,
+      "match_number": 3,
+      "datetime": "2026-06-25T23:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 6,
+        "name": "Group F"
+      },
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 22,
+        "name": "Japan",
+        "abbreviation": "JPN",
+        "country_code": "JPN",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 23,
+        "name": "Sweden",
+        "abbreviation": "SWE",
+        "country_code": "SWE",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 59,
+      "match_number": 3,
+      "datetime": "2026-06-26T02:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 14,
+        "name": "Paraguay",
+        "abbreviation": "PAR",
+        "country_code": "PAR",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 15,
+        "name": "Australia",
+        "abbreviation": "AUS",
+        "country_code": "AUS",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 60,
+      "match_number": 3,
+      "datetime": "2026-06-26T02:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 4,
+        "name": "Group D"
+      },
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 16,
+        "name": "T\u00fcrkiye",
+        "abbreviation": "TUR",
+        "country_code": "TUR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 13,
+        "name": "USA",
+        "abbreviation": "USA",
+        "country_code": "USA",
+        "confederation": "CONCACAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 61,
+      "match_number": 3,
+      "datetime": "2026-06-26T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 36,
+        "name": "Norway",
+        "abbreviation": "NOR",
+        "country_code": "NOR",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 33,
+        "name": "France",
+        "abbreviation": "FRA",
+        "country_code": "FRA",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 62,
+      "match_number": 3,
+      "datetime": "2026-06-26T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 9,
+        "name": "Group I"
+      },
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 34,
+        "name": "Senegal",
+        "abbreviation": "SEN",
+        "country_code": "SEN",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 35,
+        "name": "Iraq",
+        "abbreviation": "IRQ",
+        "country_code": "IRQ",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 63,
+      "match_number": 3,
+      "datetime": "2026-06-27T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 11,
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "MEX",
+        "capacity": 46355,
+        "latitude": 20.681927,
+        "longitude": -103.462431
+      },
+      "home_team": {
+        "id": 32,
+        "name": "Uruguay",
+        "abbreviation": "URU",
+        "country_code": "URU",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 29,
+        "name": "Spain",
+        "abbreviation": "ESP",
+        "country_code": "ESP",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 64,
+      "match_number": 3,
+      "datetime": "2026-06-27T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 8,
+        "name": "Group H"
+      },
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 30,
+        "name": "Cabo Verde",
+        "abbreviation": "CPV",
+        "country_code": "CPV",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 31,
+        "name": "Saudi Arabia",
+        "abbreviation": "KSA",
+        "country_code": "KSA",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 65,
+      "match_number": 3,
+      "datetime": "2026-06-27T03:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 26,
+        "name": "Egypt",
+        "abbreviation": "EGY",
+        "country_code": "EGY",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 27,
+        "name": "Iran",
+        "abbreviation": "IRN",
+        "country_code": "IRN",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 66,
+      "match_number": 3,
+      "datetime": "2026-06-27T03:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 7,
+        "name": "Group G"
+      },
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 28,
+        "name": "New Zealand",
+        "abbreviation": "NZL",
+        "country_code": "NZL",
+        "confederation": "OFC"
+      },
+      "away_team": {
+        "id": 25,
+        "name": "Belgium",
+        "abbreviation": "BEL",
+        "country_code": "BEL",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 67,
+      "match_number": 3,
+      "datetime": "2026-06-27T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 48,
+        "name": "Panama",
+        "abbreviation": "PAN",
+        "country_code": "PAN",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 45,
+        "name": "England",
+        "abbreviation": "ENG",
+        "country_code": "ENG",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 68,
+      "match_number": 3,
+      "datetime": "2026-06-27T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 12,
+        "name": "Group L"
+      },
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 46,
+        "name": "Croatia",
+        "abbreviation": "CRO",
+        "country_code": "CRO",
+        "confederation": "UEFA"
+      },
+      "away_team": {
+        "id": 47,
+        "name": "Ghana",
+        "abbreviation": "GHA",
+        "country_code": "GHA",
+        "confederation": "CAF"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 69,
+      "match_number": 3,
+      "datetime": "2026-06-27T23:30:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 42,
+        "name": "Colombia",
+        "abbreviation": "COL",
+        "country_code": "COL",
+        "confederation": "CONMEBOL"
+      },
+      "away_team": {
+        "id": 41,
+        "name": "Portugal",
+        "abbreviation": "POR",
+        "country_code": "POR",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 70,
+      "match_number": 3,
+      "datetime": "2026-06-27T23:30:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 11,
+        "name": "Group K"
+      },
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 44,
+        "name": "DR Congo",
+        "abbreviation": "COD",
+        "country_code": "COD",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 43,
+        "name": "Uzbekistan",
+        "abbreviation": "UZB",
+        "country_code": "UZB",
+        "confederation": "AFC"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 71,
+      "match_number": 3,
+      "datetime": "2026-06-28T02:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 40,
+        "name": "Jordan",
+        "abbreviation": "JOR",
+        "country_code": "JOR",
+        "confederation": "AFC"
+      },
+      "away_team": {
+        "id": 37,
+        "name": "Argentina",
+        "abbreviation": "ARG",
+        "country_code": "ARG",
+        "confederation": "CONMEBOL"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 72,
+      "match_number": 3,
+      "datetime": "2026-06-28T02:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 1,
+        "name": "Group Stage",
+        "order": 1
+      },
+      "group": {
+        "id": 10,
+        "name": "Group J"
+      },
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 38,
+        "name": "Algeria",
+        "abbreviation": "ALG",
+        "country_code": "ALG",
+        "confederation": "CAF"
+      },
+      "away_team": {
+        "id": 39,
+        "name": "Austria",
+        "abbreviation": "AUT",
+        "country_code": "AUT",
+        "confederation": "UEFA"
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 3,
+      "round_name": null,
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 146,
+      "match_number": 6,
+      "datetime": "2026-06-28T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 241,
+        "name": "2A",
+        "abbreviation": "2A",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 242,
+        "name": "2B",
+        "abbreviation": "2B",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 147,
+      "match_number": 6,
+      "datetime": "2026-06-29T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 243,
+        "name": "1C",
+        "abbreviation": "1C",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 244,
+        "name": "2F",
+        "abbreviation": "2F",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 148,
+      "match_number": 6,
+      "datetime": "2026-06-29T20:30:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 245,
+        "name": "1E",
+        "abbreviation": "1E",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 246,
+        "name": "3A/3B/3C/3D/3F",
+        "abbreviation": "3A3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 149,
+      "match_number": 6,
+      "datetime": "2026-06-30T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 7,
+        "name": "Estadio BBVA",
+        "city": "Monterrey",
+        "country": "MEX",
+        "capacity": 53500,
+        "latitude": 25.669296,
+        "longitude": -100.243982
+      },
+      "home_team": {
+        "id": 247,
+        "name": "1F",
+        "abbreviation": "1F",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 248,
+        "name": "2C",
+        "abbreviation": "2C",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 150,
+      "match_number": 6,
+      "datetime": "2026-06-30T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 249,
+        "name": "2E",
+        "abbreviation": "2E",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 250,
+        "name": "2I",
+        "abbreviation": "2I",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 151,
+      "match_number": 6,
+      "datetime": "2026-06-30T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 251,
+        "name": "1I",
+        "abbreviation": "1I",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 252,
+        "name": "3C/3D/3F/3G/3H",
+        "abbreviation": "3C3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 152,
+      "match_number": 6,
+      "datetime": "2026-07-01T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 15,
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "MEX",
+        "capacity": 87523,
+        "latitude": 19.303043,
+        "longitude": -99.150485
+      },
+      "home_team": {
+        "id": 1,
+        "name": "Mexico",
+        "abbreviation": "MEX",
+        "country_code": "MEX",
+        "confederation": "CONCACAF"
+      },
+      "away_team": {
+        "id": 254,
+        "name": "3C/3E/3F/3H/3I",
+        "abbreviation": "3C3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 153,
+      "match_number": 6,
+      "datetime": "2026-07-01T16:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 255,
+        "name": "1L",
+        "abbreviation": "1L",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 256,
+        "name": "3E/3H/3I/3J/3K",
+        "abbreviation": "3E3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 154,
+      "match_number": 6,
+      "datetime": "2026-07-01T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 2017,
+        "name": "G1",
+        "abbreviation": "1G",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 258,
+        "name": "3A/3E/3H/3I/3J",
+        "abbreviation": "3A3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 155,
+      "match_number": 6,
+      "datetime": "2026-07-02T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 13,
+        "name": "Levi's Stadium",
+        "city": "Santa Clara",
+        "country": "USA",
+        "capacity": 68500,
+        "latitude": 37.403158,
+        "longitude": -121.969831
+      },
+      "home_team": {
+        "id": 259,
+        "name": "1D",
+        "abbreviation": "1D",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 260,
+        "name": "3B/3E/3F/3I/3J",
+        "abbreviation": "3B3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 156,
+      "match_number": 6,
+      "datetime": "2026-07-02T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 2021,
+        "name": "H1",
+        "abbreviation": "1H",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 262,
+        "name": "2J",
+        "abbreviation": "2J",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 157,
+      "match_number": 6,
+      "datetime": "2026-07-02T23:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 5,
+        "name": "BMO Field",
+        "city": "Toronto",
+        "country": "CAN",
+        "capacity": 45700,
+        "latitude": 43.633341,
+        "longitude": -79.418561
+      },
+      "home_team": {
+        "id": 263,
+        "name": "2K",
+        "abbreviation": "2K",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 264,
+        "name": "2L",
+        "abbreviation": "2L",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 158,
+      "match_number": 6,
+      "datetime": "2026-07-03T03:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 265,
+        "name": "1B",
+        "abbreviation": "1B",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 266,
+        "name": "3E/3F/3G/3I/3J",
+        "abbreviation": "3E3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 159,
+      "match_number": 6,
+      "datetime": "2026-07-03T18:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 267,
+        "name": "2D",
+        "abbreviation": "2D",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 2028,
+        "name": "G2",
+        "abbreviation": "2G",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 160,
+      "match_number": 6,
+      "datetime": "2026-07-03T22:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 269,
+        "name": "1J",
+        "abbreviation": "1J",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 2030,
+        "name": "H2",
+        "abbreviation": "2H",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 161,
+      "match_number": 6,
+      "datetime": "2026-07-04T01:30:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 2,
+        "name": "Round of 32",
+        "order": 2
+      },
+      "group": null,
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 271,
+        "name": "1K",
+        "abbreviation": "1K",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 272,
+        "name": "3D/3E/3I/3J/3L",
+        "abbreviation": "3D3",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 6,
+      "round_name": "Round of 32",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 162,
+      "match_number": 5,
+      "datetime": "2026-07-04T17:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 8,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.684858,
+        "longitude": -95.410802
+      },
+      "home_team": {
+        "id": 273,
+        "name": "W73",
+        "abbreviation": "W73",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 274,
+        "name": "W75",
+        "abbreviation": "W75",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 163,
+      "match_number": 5,
+      "datetime": "2026-07-04T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 2,
+        "name": "Lincoln Financial Field",
+        "city": "Philadelphia",
+        "country": "USA",
+        "capacity": 69176,
+        "latitude": 39.90091,
+        "longitude": -75.167489
+      },
+      "home_team": {
+        "id": 275,
+        "name": "W74",
+        "abbreviation": "W74",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 276,
+        "name": "W77",
+        "abbreviation": "W77",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 164,
+      "match_number": 5,
+      "datetime": "2026-07-05T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 4,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.813524,
+        "longitude": -74.073401
+      },
+      "home_team": {
+        "id": 277,
+        "name": "W76",
+        "abbreviation": "W76",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 278,
+        "name": "W78",
+        "abbreviation": "W78",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 165,
+      "match_number": 5,
+      "datetime": "2026-07-06T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 15,
+        "name": "Estadio Azteca",
+        "city": "Mexico City",
+        "country": "MEX",
+        "capacity": 87523,
+        "latitude": 19.303043,
+        "longitude": -99.150485
+      },
+      "home_team": {
+        "id": 279,
+        "name": "W79",
+        "abbreviation": "W79",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 280,
+        "name": "W80",
+        "abbreviation": "W80",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 166,
+      "match_number": 5,
+      "datetime": "2026-07-06T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 9,
+        "name": "AT&T Stadium",
+        "city": "Arlington",
+        "country": "USA",
+        "capacity": 80000,
+        "latitude": 32.74785,
+        "longitude": -97.092834
+      },
+      "home_team": {
+        "id": 281,
+        "name": "W83",
+        "abbreviation": "W83",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 282,
+        "name": "W84",
+        "abbreviation": "W84",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 167,
+      "match_number": 5,
+      "datetime": "2026-07-07T00:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 10,
+        "name": "Lumen Field",
+        "city": "Seattle",
+        "country": "USA",
+        "capacity": 68740,
+        "latitude": 47.595346,
+        "longitude": -122.331644
+      },
+      "home_team": {
+        "id": 283,
+        "name": "W81",
+        "abbreviation": "W81",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 284,
+        "name": "W82",
+        "abbreviation": "W82",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 168,
+      "match_number": 5,
+      "datetime": "2026-07-07T16:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 6,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.755412,
+        "longitude": -84.400849
+      },
+      "home_team": {
+        "id": 285,
+        "name": "W86",
+        "abbreviation": "W86",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 286,
+        "name": "W88",
+        "abbreviation": "W88",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 169,
+      "match_number": 5,
+      "datetime": "2026-07-07T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 3,
+        "name": "Round of 16",
+        "order": 3
+      },
+      "group": null,
+      "stadium": {
+        "id": 3,
+        "name": "BC Place",
+        "city": "Vancouver",
+        "country": "CAN",
+        "capacity": 54500,
+        "latitude": 49.276691,
+        "longitude": -123.112006
+      },
+      "home_team": {
+        "id": 287,
+        "name": "W85",
+        "abbreviation": "W85",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 288,
+        "name": "W87",
+        "abbreviation": "W87",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 5,
+      "round_name": "Round of 16",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 170,
+      "match_number": 27,
+      "datetime": "2026-07-09T20:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 4,
+        "name": "Quarterfinal",
+        "order": 4
+      },
+      "group": null,
+      "stadium": {
+        "id": 14,
+        "name": "Gillette Stadium",
+        "city": "Foxborough",
+        "country": "USA",
+        "capacity": 66829,
+        "latitude": 42.091253,
+        "longitude": -71.264465
+      },
+      "home_team": {
+        "id": 289,
+        "name": "W89",
+        "abbreviation": "W89",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 290,
+        "name": "W90",
+        "abbreviation": "W90",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 27,
+      "round_name": "Quarterfinals",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 171,
+      "match_number": 27,
+      "datetime": "2026-07-10T19:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 4,
+        "name": "Quarterfinal",
+        "order": 4
+      },
+      "group": null,
+      "stadium": {
+        "id": 1,
+        "name": "SoFi Stadium",
+        "city": "Inglewood",
+        "country": "USA",
+        "capacity": 70242,
+        "latitude": 33.953407,
+        "longitude": -118.33901
+      },
+      "home_team": {
+        "id": 291,
+        "name": "W93",
+        "abbreviation": "W93",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 292,
+        "name": "W94",
+        "abbreviation": "W94",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 27,
+      "round_name": "Quarterfinals",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 172,
+      "match_number": 27,
+      "datetime": "2026-07-11T21:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 4,
+        "name": "Quarterfinal",
+        "order": 4
+      },
+      "group": null,
+      "stadium": {
+        "id": 16,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
+        "country": "USA",
+        "capacity": 65326,
+        "latitude": 25.958037,
+        "longitude": -80.237924
+      },
+      "home_team": {
+        "id": 293,
+        "name": "W91",
+        "abbreviation": "W91",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 294,
+        "name": "W92",
+        "abbreviation": "W92",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 27,
+      "round_name": "Quarterfinals",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    },
+    {
+      "id": 173,
+      "match_number": 27,
+      "datetime": "2026-07-12T01:00:00.000Z",
+      "status": "scheduled",
+      "clock_display": null,
+      "clock_seconds": null,
+      "season": {
+        "id": 1,
+        "year": 2026
+      },
+      "stage": {
+        "id": 4,
+        "name": "Quarterfinal",
+        "order": 4
+      },
+      "group": null,
+      "stadium": {
+        "id": 12,
+        "name": "Arrowhead Stadium",
+        "city": "Kansas City",
+        "country": "USA",
+        "capacity": 76416,
+        "latitude": 39.048941,
+        "longitude": -94.484994
+      },
+      "home_team": {
+        "id": 295,
+        "name": "W95",
+        "abbreviation": "W95",
+        "country_code": null,
+        "confederation": null
+      },
+      "away_team": {
+        "id": 296,
+        "name": "W96",
+        "abbreviation": "W96",
+        "country_code": null,
+        "confederation": null
+      },
+      "home_team_source": null,
+      "away_team_source": null,
+      "home_score": null,
+      "away_score": null,
+      "home_score_penalties": null,
+      "away_score_penalties": null,
+      "first_half_home_score": null,
+      "first_half_away_score": null,
+      "second_half_home_score": null,
+      "second_half_away_score": null,
+      "extra_time_home_score": null,
+      "extra_time_away_score": null,
+      "has_extra_time": false,
+      "has_penalty_shootout": false,
+      "round_number": 27,
+      "round_name": "Quarterfinals",
+      "home_formation": null,
+      "away_formation": null,
+      "referee": null,
+      "home_manager": null,
+      "away_manager": null
+    }
+  ],
+  "meta": {
+    "next_cursor": 173,
+    "per_page": 100
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "_resolved_at": "2026-06-20T00:55:00Z",
+  "_notes": {
+    "danilo": "id=304 is 'Danilo' (Carlos Danilo Luiz Espirito Santo), Brazil's starting defender. id=29617 is 'Danilo Santos' (different player). Bet says 'Danilo da Silva' — resolved to id=304.",
+    "turkey_match": "API lists this as Turkiye (home, id=16) vs Paraguay (away, id=14), match_id=32. Bet selection is Turkey to win regardless of home/away.",
+    "player_stat_live": "player_match_stats appears live mid-match (verified via match 29). shots_on_target present. tackles_won present for some players. fouls_committed present.",
+    "voiding": "Check is_starter in lineup. If not in squad or minutes_played==0 after match starts, mark void."
+  },
+  "teams": {
+    "Mexico":     { "id": 1,  "abbreviation": "MEX" },
+    "South Korea":{ "id": 3,  "abbreviation": "KOR" },
+    "USA":        { "id": 13, "abbreviation": "USA" },
+    "Australia":  { "id": 15, "abbreviation": "AUS" },
+    "Scotland":   { "id": 12, "abbreviation": "SCO" },
+    "Morocco":    { "id": 10, "abbreviation": "MAR" },
+    "Paraguay":   { "id": 14, "abbreviation": "PAR" },
+    "Turkey":     { "id": 16, "abbreviation": "TUR", "api_name": "Türkiye" },
+    "Brazil":     { "id": 9,  "abbreviation": "BRA" },
+    "Haiti":      { "id": 11, "abbreviation": "HAI" }
+  },
+  "players": {
+    "Vinicius Junior":        { "id": 9227,  "api_name": "Vinícius Júnior", "team_id": 9 },
+    "Matheus Cunha":          { "id": 29607, "api_name": "Matheus Cunha",   "team_id": 9 },
+    "Jean-Ricner Bellegarde": { "id": 30001, "api_name": "Jean-Ricner Bellegarde", "team_id": 11 },
+    "Bruno Guimaraes":        { "id": 9245,  "api_name": "Bruno Guimarães", "team_id": 9 },
+    "Douglas Santos":         { "id": 29625, "api_name": "Douglas Santos",  "team_id": 9 },
+    "Lucas Paqueta":          { "id": 9224,  "api_name": "Lucas Paquetá",   "team_id": 9 },
+    "Danilo da Silva":        { "id": 304,   "api_name": "Danilo",           "team_id": 9 }
+  },
+  "bets": [
+    {
+      "id": "fourfold-match-result",
+      "name": "Four-Fold",
+      "type": "accumulator",
+      "category": "match_result",
+      "stake": { "amount": 10.00, "currency": "GBP", "free_bet": true },
+      "odds_fractional": "9.47/1",
+      "potential_return": 94.76,
+      "return_excludes_stake": true,
+      "legs": [
+        { "id": "f1", "market": "match_result", "selection_team": "Mexico",
+          "match": { "home": "Mexico", "away": "South Korea" },
+          "match_id": 28, "team_id": 1 },
+        { "id": "f2", "market": "match_result", "selection_team": "USA",
+          "match": { "home": "USA", "away": "Australia" },
+          "match_id": 29, "team_id": 13 },
+        { "id": "f3", "market": "match_result", "selection_team": "Morocco",
+          "match": { "home": "Scotland", "away": "Morocco" },
+          "match_id": 30, "team_id": 10 },
+        { "id": "f4", "market": "match_result", "selection_team": "Turkey",
+          "match": { "home": "Türkiye", "away": "Paraguay" },
+          "match_id": 32, "team_id": 16 }
+      ]
+    },
+
+    {
+      "id": "sevenfold-brazil-haiti",
+      "name": "Seven-Fold",
+      "type": "accumulator",
+      "category": "player_props",
+      "stake": { "amount": 10.00, "currency": "GBP", "free_bet": true },
+      "odds_fractional": "11/1",
+      "potential_return": 110.00,
+      "return_excludes_stake": true,
+      "match": { "home": "Brazil", "away": "Haiti", "match_id": 31 },
+      "legs": [
+        { "id": "s1", "player": "Vinicius Junior", "player_id": 9227,
+          "market": "goal_or_assist", "label": "Vinícius Júnior — Anytime Goal or Assist" },
+        { "id": "s2", "player": "Matheus Cunha", "player_id": 29607,
+          "market": "goal_or_assist", "label": "Matheus Cunha — Anytime Goal or Assist" },
+        { "id": "s3", "player": "Vinicius Junior", "player_id": 9227,
+          "market": "shots_on_target", "threshold": 2, "label": "Vinícius Júnior — Shots on Target 2+" },
+        { "id": "s4", "player": "Matheus Cunha", "player_id": 29607,
+          "market": "shots_on_target", "threshold": 2, "label": "Matheus Cunha — Shots on Target 2+" },
+        { "id": "s5", "player": "Jean-Ricner Bellegarde", "player_id": 30001,
+          "team": "Haiti",
+          "market": "fouls_committed", "threshold": 2, "label": "Bellegarde — Fouls Committed 2+" },
+        { "id": "s6", "player": "Bruno Guimaraes", "player_id": 9245,
+          "market": "tackles_won", "threshold": 2, "label": "Bruno Guimarães — Tackles Won 2+" },
+        { "id": "s7", "player": "Douglas Santos", "player_id": 29625,
+          "market": "tackles_won", "threshold": 2, "label": "Douglas Santos — Tackles Won 2+" }
+      ]
+    },
+
+    {
+      "id": "tenfold-brazil-haiti",
+      "name": "Ten-Fold",
+      "type": "accumulator",
+      "category": "player_props",
+      "stake": { "amount": 2.00, "currency": "GBP", "free_bet": true },
+      "odds_fractional": "50/1",
+      "potential_return": 100.00,
+      "return_excludes_stake": true,
+      "match": { "home": "Brazil", "away": "Haiti", "match_id": 31 },
+      "legs": [
+        { "id": "t1", "player": "Vinicius Junior", "player_id": 9227,
+          "market": "goal_or_assist", "label": "Vinícius Júnior — Anytime Goal or Assist" },
+        { "id": "t2", "player": "Matheus Cunha", "player_id": 29607,
+          "market": "goal_or_assist", "label": "Matheus Cunha — Anytime Goal or Assist" },
+        { "id": "t3", "player": "Vinicius Junior", "player_id": 9227,
+          "market": "shots_on_target", "threshold": 2, "label": "Vinícius Júnior — Shots on Target 2+" },
+        { "id": "t4", "player": "Matheus Cunha", "player_id": 29607,
+          "market": "shots_on_target", "threshold": 2, "label": "Matheus Cunha — Shots on Target 2+" },
+        { "id": "t5", "player": "Jean-Ricner Bellegarde", "player_id": 30001,
+          "team": "Haiti",
+          "market": "fouls_committed", "threshold": 2, "label": "Bellegarde — Fouls Committed 2+" },
+        { "id": "t6", "player": "Bruno Guimaraes", "player_id": 9245,
+          "market": "fouls_committed", "threshold": 2, "label": "Bruno Guimarães — Fouls Committed 2+" },
+        { "id": "t7", "player": "Bruno Guimaraes", "player_id": 9245,
+          "market": "tackles_won", "threshold": 2, "label": "Bruno Guimarães — Tackles Won 2+" },
+        { "id": "t8", "player": "Lucas Paqueta", "player_id": 9224,
+          "market": "tackles_won", "threshold": 2, "label": "Lucas Paquetá — Tackles Won 2+" },
+        { "id": "t9", "player": "Douglas Santos", "player_id": 29625,
+          "market": "tackles_won", "threshold": 2, "label": "Douglas Santos — Tackles Won 2+" },
+        { "id": "t10", "player": "Danilo da Silva", "player_id": 304,
+          "market": "tackles_won", "threshold": 2, "label": "Danilo — Tackles Won 2+" }
+      ]
+    }
+  ]
+}
